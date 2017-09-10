@@ -8,8 +8,13 @@
 
 import UIKit
 
-class SportsDrillCategorySelection: UIViewController {
+class SportsDrillCategorySelection: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
+    @IBOutlet weak var tableDrills: UITableView!
+    @IBOutlet weak var tableCategory: UITableView!
+    
+    @IBOutlet weak var tableSport: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,6 +26,30 @@ class SportsDrillCategorySelection: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    
+    //MARK: - Tableview Delegate & Datasource
+    func tableView(_ tableView:UITableView, numberOfRowsInSection section:Int) -> Int
+    {
+        return 10
+    }
+    
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int
+    {
+        return 1
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
+    {
+        
+        let cell: UITableViewCell = UITableViewCell(style: UITableViewCellStyle.subtitle, reuseIdentifier: "SDCTableViewCell")
+        //cell.backgroundColor = UIColor.blue
+        return cell
+    }
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath)
+    {
+        
+    }
 
     /*
     // MARK: - Navigation

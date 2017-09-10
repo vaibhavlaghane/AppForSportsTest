@@ -26,6 +26,15 @@
 		DC6CD4CC1F65DB5A001B77CE /* BaseTabBarControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6CD4CB1F65DB5A001B77CE /* BaseTabBarControllerViewController.swift */; };
 		DC6CD4CD1F65DB5A001B77CE /* BaseTabBarControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6CD4CB1F65DB5A001B77CE /* BaseTabBarControllerViewController.swift */; };
 		DC6CD4CE1F65DB5A001B77CE /* BaseTabBarControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6CD4CB1F65DB5A001B77CE /* BaseTabBarControllerViewController.swift */; };
+		DC6CD4DD1F65FF3E001B77CE /* SDCTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6CD4DB1F65FF3E001B77CE /* SDCTableViewCell.swift */; };
+		DC6CD4DE1F65FF3E001B77CE /* SDCTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6CD4DB1F65FF3E001B77CE /* SDCTableViewCell.swift */; };
+		DC6CD4DF1F65FF3E001B77CE /* SDCTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6CD4DB1F65FF3E001B77CE /* SDCTableViewCell.swift */; };
+		DC6CD4E01F65FF3E001B77CE /* SDCTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC6CD4DC1F65FF3E001B77CE /* SDCTableViewCell.xib */; };
+		DC6CD4E11F65FF3E001B77CE /* SDCTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC6CD4DC1F65FF3E001B77CE /* SDCTableViewCell.xib */; };
+		DC6CD4E21F65FF3E001B77CE /* SDCTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC6CD4DC1F65FF3E001B77CE /* SDCTableViewCell.xib */; };
+		DC6CD4E61F6607D8001B77CE /* SportsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6CD4E51F6607D8001B77CE /* SportsModel.swift */; };
+		DC6CD4E71F6607D8001B77CE /* SportsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6CD4E51F6607D8001B77CE /* SportsModel.swift */; };
+		DC6CD4E81F6607D8001B77CE /* SportsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6CD4E51F6607D8001B77CE /* SportsModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +72,9 @@
 		DC59A60B1F55415D007CF44A /* AccountDetailsBaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccountDetailsBaseViewController.xib; sourceTree = "<group>"; };
 		DC6CD4C31F65BDEC001B77CE /* SportsDrillCategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SportsDrillCategoryViewController.swift; sourceTree = "<group>"; };
 		DC6CD4CB1F65DB5A001B77CE /* BaseTabBarControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBarControllerViewController.swift; sourceTree = "<group>"; };
+		DC6CD4DB1F65FF3E001B77CE /* SDCTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDCTableViewCell.swift; sourceTree = "<group>"; };
+		DC6CD4DC1F65FF3E001B77CE /* SDCTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SDCTableViewCell.xib; sourceTree = "<group>"; };
+		DC6CD4E51F6607D8001B77CE /* SportsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SportsModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +125,7 @@
 		DC59A5D81F538E67007CF44A /* DrillBase */ = {
 			isa = PBXGroup;
 			children = (
+				DC6CD4E41F6607B4001B77CE /* Model */,
 				DC59A6091F5540C6007CF44A /* SportsDrillsCategory */,
 				DC59A6081F5540BF007CF44A /* AccountDetails */,
 				DC59A5D91F538E67007CF44A /* AppDelegate.swift */,
@@ -157,8 +170,18 @@
 			children = (
 				DC6CD4C31F65BDEC001B77CE /* SportsDrillCategoryViewController.swift */,
 				DC6CD4CB1F65DB5A001B77CE /* BaseTabBarControllerViewController.swift */,
+				DC6CD4DB1F65FF3E001B77CE /* SDCTableViewCell.swift */,
+				DC6CD4DC1F65FF3E001B77CE /* SDCTableViewCell.xib */,
 			);
 			path = SportsDrillsCategory;
+			sourceTree = "<group>";
+		};
+		DC6CD4E41F6607B4001B77CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DC6CD4E51F6607D8001B77CE /* SportsModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC59A5E41F538E67007CF44A /* LaunchScreen.storyboard in Resources */,
+				DC6CD4E01F65FF3E001B77CE /* SDCTableViewCell.xib in Resources */,
 				DC59A5E11F538E67007CF44A /* Assets.xcassets in Resources */,
 				DC59A60F1F55415D007CF44A /* AccountDetailsBaseViewController.xib in Resources */,
 				DC59A5DF1F538E67007CF44A /* Main.storyboard in Resources */,
@@ -279,6 +303,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC6CD4E11F65FF3E001B77CE /* SDCTableViewCell.xib in Resources */,
 				DC59A6101F55415D007CF44A /* AccountDetailsBaseViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +312,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC6CD4E21F65FF3E001B77CE /* SDCTableViewCell.xib in Resources */,
 				DC59A6111F55415D007CF44A /* AccountDetailsBaseViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +328,8 @@
 				DC6CD4CC1F65DB5A001B77CE /* BaseTabBarControllerViewController.swift in Sources */,
 				DC6CD4C51F65BDEC001B77CE /* SportsDrillCategoryViewController.swift in Sources */,
 				DC59A60C1F55415D007CF44A /* AccountDetailsBaseViewController.swift in Sources */,
+				DC6CD4E61F6607D8001B77CE /* SportsModel.swift in Sources */,
+				DC6CD4DD1F65FF3E001B77CE /* SDCTableViewCell.swift in Sources */,
 				DC59A5DA1F538E67007CF44A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,7 +338,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC6CD4E71F6607D8001B77CE /* SportsModel.swift in Sources */,
 				DC6CD4C61F65BDEC001B77CE /* SportsDrillCategoryViewController.swift in Sources */,
+				DC6CD4DE1F65FF3E001B77CE /* SDCTableViewCell.swift in Sources */,
 				DC6CD4CD1F65DB5A001B77CE /* BaseTabBarControllerViewController.swift in Sources */,
 				DC59A60D1F55415D007CF44A /* AccountDetailsBaseViewController.swift in Sources */,
 				DC59A5EF1F538E68007CF44A /* DrillBaseTests.swift in Sources */,
@@ -321,7 +351,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC6CD4E81F6607D8001B77CE /* SportsModel.swift in Sources */,
 				DC6CD4C71F65BDEC001B77CE /* SportsDrillCategoryViewController.swift in Sources */,
+				DC6CD4DF1F65FF3E001B77CE /* SDCTableViewCell.swift in Sources */,
 				DC6CD4CE1F65DB5A001B77CE /* BaseTabBarControllerViewController.swift in Sources */,
 				DC59A60E1F55415D007CF44A /* AccountDetailsBaseViewController.swift in Sources */,
 				DC59A5FA1F538E68007CF44A /* DrillBaseUITests.swift in Sources */,

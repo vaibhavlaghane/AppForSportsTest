@@ -37,7 +37,7 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Register with email" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8NA-kH-wD2">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Register with email" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8NA-kH-wD2">
                                         <rect key="frame" x="0.0" y="80" width="333" height="21"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -48,7 +48,7 @@
                                         <color key="textColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Register with Email" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sms-vd-7ej">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Register with Email" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sms-vd-7ej">
                                         <rect key="frame" x="0.0" y="101" width="333" height="75"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -80,7 +80,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" ambiguous="YES" text="Register with Facebook" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1p5-Hl-Gy8">
-                                        <rect key="frame" x="0.0" y="326" width="333" height="21"/>
+                                        <rect key="frame" x="0.0" y="326" width="333" height="75"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="lessThanOrEqual" constant="75" id="bHT-Hd-xC0"/>
@@ -91,7 +91,7 @@
                                         <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Sign In" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3jc-ID-8Be">
-                                        <rect key="frame" x="0.0" y="347" width="333" height="75"/>
+                                        <rect key="frame" x="0.0" y="401" width="333" height="75"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="75" id="tlQ-AV-StG"/>
@@ -101,7 +101,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Sign In" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Smo-K6-1lb">
-                                        <rect key="frame" x="0.0" y="422" width="333" height="21"/>
+                                        <rect key="frame" x="0.0" y="476" width="333" height="21"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="lessThanOrEqual" constant="75" id="0Xw-kU-B63"/>
@@ -112,7 +112,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pdv-nE-UU3">
-                                        <rect key="frame" x="0.0" y="443" width="333" height="168"/>
+                                        <rect key="frame" x="0.0" y="497" width="333" height="114"/>
                                         <color key="backgroundColor" red="1" green="0.48193046179999999" blue="0.29789135030000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="Login"/>
                                         <connections>
@@ -209,6 +209,10 @@
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="NX0-de-kQ4">
                                         <rect key="frame" x="0.0" y="0.0" width="122" height="467"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <outlet property="dataSource" destination="QPD-vh-JQc" id="GAJ-jb-F5V"/>
+                                            <outlet property="delegate" destination="QPD-vh-JQc" id="u00-Ir-hP7"/>
+                                        </connections>
                                     </tableView>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="khx-b0-IyP">
                                         <rect key="frame" x="258" y="0.0" width="117" height="467"/>
@@ -216,10 +220,18 @@
                                         <constraints>
                                             <constraint firstAttribute="width" constant="117" id="DuJ-I7-fve"/>
                                         </constraints>
+                                        <connections>
+                                            <outlet property="dataSource" destination="QPD-vh-JQc" id="cgl-WV-4DI"/>
+                                            <outlet property="delegate" destination="QPD-vh-JQc" id="JJ4-yj-Jki"/>
+                                        </connections>
                                     </tableView>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="xSK-l5-RXA">
                                         <rect key="frame" x="124" y="0.0" width="126" height="467"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <outlet property="dataSource" destination="QPD-vh-JQc" id="DZi-4E-RF2"/>
+                                            <outlet property="delegate" destination="QPD-vh-JQc" id="GBw-0b-ske"/>
+                                        </connections>
                                     </tableView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -245,7 +257,7 @@
                                 <state key="normal" title="Done"/>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.1203016061" green="0.3381557926" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="dFE-b3-QmN" firstAttribute="top" secondItem="WD6-mS-4h4" secondAttribute="top" id="557-Kb-XGw"/>
                             <constraint firstItem="4Q7-DD-q82" firstAttribute="leading" secondItem="WD6-mS-4h4" secondAttribute="leading" id="5zT-1P-pNx"/>
@@ -272,6 +284,11 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="tab1" id="3y3-qq-0q6"/>
+                    <connections>
+                        <outlet property="tableCategory" destination="khx-b0-IyP" id="HIs-92-EuQ"/>
+                        <outlet property="tableDrills" destination="xSK-l5-RXA" id="2TX-28-Yph"/>
+                        <outlet property="tableSport" destination="NX0-de-kQ4" id="5kf-Iz-hJc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OvE-fm-8QP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -22,7 +22,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DrillBase/ViewController.swift"
@@ -57,8 +57,8 @@
                   symbolName = "DrillBase.ViewController.loginButtonClicked (Any) -&gt; ()"
                   moduleName = "DrillBase"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/vaibhavlaghane/Documents/PROJECTS_/DrillBase/DrillBase/DrillBase/ViewController.swift"
-                  timestampString = "526776826.33164"
+                  urlString = "file:///Users/vaibhavlaghane/Documents/PROJECTS_/DrillBase/DrillBaseB/DrillBase/ViewController.swift"
+                  timestampString = "526778392.978547"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "51"
@@ -72,8 +72,8 @@
                   symbolName = "DrillBase.ViewController.loginButtonClicked (Any) -&gt; ()"
                   moduleName = "DrillBase"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/vaibhavlaghane/Documents/PROJECTS_/DrillBase/DrillBase/DrillBase/ViewController.swift"
-                  timestampString = "526776826.334195"
+                  urlString = "file:///Users/vaibhavlaghane/Documents/PROJECTS_/DrillBase/DrillBaseB/DrillBase/ViewController.swift"
+                  timestampString = "526778392.981048"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "51"
