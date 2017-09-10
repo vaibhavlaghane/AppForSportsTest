@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC59A5DA1F538E67007CF44A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC59A5D91F538E67007CF44A /* AppDelegate.swift */; };
+		DC59A5DC1F538E67007CF44A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC59A5DB1F538E67007CF44A /* ViewController.swift */; };
+		DC59A5DF1F538E67007CF44A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC59A5DD1F538E67007CF44A /* Main.storyboard */; };
+		DC59A5E11F538E67007CF44A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC59A5E01F538E67007CF44A /* Assets.xcassets */; };
+		DC59A5E41F538E67007CF44A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC59A5E21F538E67007CF44A /* LaunchScreen.storyboard */; };
+		DC59A5EF1F538E68007CF44A /* DrillBaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC59A5EE1F538E68007CF44A /* DrillBaseTests.swift */; };
+		DC59A5FA1F538E68007CF44A /* DrillBaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC59A5F91F538E68007CF44A /* DrillBaseUITests.swift */; };
+		DC59A60C1F55415D007CF44A /* AccountDetailsBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC59A60A1F55415D007CF44A /* AccountDetailsBaseViewController.swift */; };
+		DC59A60D1F55415D007CF44A /* AccountDetailsBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC59A60A1F55415D007CF44A /* AccountDetailsBaseViewController.swift */; };
+		DC59A60E1F55415D007CF44A /* AccountDetailsBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC59A60A1F55415D007CF44A /* AccountDetailsBaseViewController.swift */; };
+		DC59A60F1F55415D007CF44A /* AccountDetailsBaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC59A60B1F55415D007CF44A /* AccountDetailsBaseViewController.xib */; };
+		DC59A6101F55415D007CF44A /* AccountDetailsBaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC59A60B1F55415D007CF44A /* AccountDetailsBaseViewController.xib */; };
+		DC59A6111F55415D007CF44A /* AccountDetailsBaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC59A60B1F55415D007CF44A /* AccountDetailsBaseViewController.xib */; };
+		DC6CD4C51F65BDEC001B77CE /* SportsDrillCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6CD4C31F65BDEC001B77CE /* SportsDrillCategoryViewController.swift */; };
+		DC6CD4C61F65BDEC001B77CE /* SportsDrillCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6CD4C31F65BDEC001B77CE /* SportsDrillCategoryViewController.swift */; };
+		DC6CD4C71F65BDEC001B77CE /* SportsDrillCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6CD4C31F65BDEC001B77CE /* SportsDrillCategoryViewController.swift */; };
+		DC6CD4CC1F65DB5A001B77CE /* BaseTabBarControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6CD4CB1F65DB5A001B77CE /* BaseTabBarControllerViewController.swift */; };
+		DC6CD4CD1F65DB5A001B77CE /* BaseTabBarControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6CD4CB1F65DB5A001B77CE /* BaseTabBarControllerViewController.swift */; };
+		DC6CD4CE1F65DB5A001B77CE /* BaseTabBarControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6CD4CB1F65DB5A001B77CE /* BaseTabBarControllerViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC59A5EB1F538E68007CF44A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC59A5CE1F538E67007CF44A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC59A5D51F538E67007CF44A;
+			remoteInfo = DrillBase;
+		};
+		DC59A5F61F538E68007CF44A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC59A5CE1F538E67007CF44A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC59A5D51F538E67007CF44A;
+			remoteInfo = DrillBase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC59A5D61F538E67007CF44A /* DrillBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrillBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC59A5D91F538E67007CF44A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC59A5DB1F538E67007CF44A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC59A5DE1F538E67007CF44A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC59A5E01F538E67007CF44A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC59A5E31F538E67007CF44A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC59A5E51F538E67007CF44A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC59A5EA1F538E68007CF44A /* DrillBaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrillBaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC59A5EE1F538E68007CF44A /* DrillBaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrillBaseTests.swift; sourceTree = "<group>"; };
+		DC59A5F01F538E68007CF44A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC59A5F51F538E68007CF44A /* DrillBaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrillBaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC59A5F91F538E68007CF44A /* DrillBaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrillBaseUITests.swift; sourceTree = "<group>"; };
+		DC59A5FB1F538E68007CF44A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC59A60A1F55415D007CF44A /* AccountDetailsBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountDetailsBaseViewController.swift; sourceTree = "<group>"; };
+		DC59A60B1F55415D007CF44A /* AccountDetailsBaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccountDetailsBaseViewController.xib; sourceTree = "<group>"; };
+		DC6CD4C31F65BDEC001B77CE /* SportsDrillCategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SportsDrillCategoryViewController.swift; sourceTree = "<group>"; };
+		DC6CD4CB1F65DB5A001B77CE /* BaseTabBarControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBarControllerViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC59A5D31F538E67007CF44A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC59A5E71F538E68007CF44A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC59A5F21F538E68007CF44A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC59A5CD1F538E67007CF44A = {
+			isa = PBXGroup;
+			children = (
+				DC59A5D81F538E67007CF44A /* DrillBase */,
+				DC59A5ED1F538E68007CF44A /* DrillBaseTests */,
+				DC59A5F81F538E68007CF44A /* DrillBaseUITests */,
+				DC59A5D71F538E67007CF44A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC59A5D71F538E67007CF44A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC59A5D61F538E67007CF44A /* DrillBase.app */,
+				DC59A5EA1F538E68007CF44A /* DrillBaseTests.xctest */,
+				DC59A5F51F538E68007CF44A /* DrillBaseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC59A5D81F538E67007CF44A /* DrillBase */ = {
+			isa = PBXGroup;
+			children = (
+				DC59A6091F5540C6007CF44A /* SportsDrillsCategory */,
+				DC59A6081F5540BF007CF44A /* AccountDetails */,
+				DC59A5D91F538E67007CF44A /* AppDelegate.swift */,
+				DC59A5DB1F538E67007CF44A /* ViewController.swift */,
+				DC59A5DD1F538E67007CF44A /* Main.storyboard */,
+				DC59A5E01F538E67007CF44A /* Assets.xcassets */,
+				DC59A5E21F538E67007CF44A /* LaunchScreen.storyboard */,
+				DC59A5E51F538E67007CF44A /* Info.plist */,
+			);
+			path = DrillBase;
+			sourceTree = "<group>";
+		};
+		DC59A5ED1F538E68007CF44A /* DrillBaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC59A5EE1F538E68007CF44A /* DrillBaseTests.swift */,
+				DC59A5F01F538E68007CF44A /* Info.plist */,
+			);
+			path = DrillBaseTests;
+			sourceTree = "<group>";
+		};
+		DC59A5F81F538E68007CF44A /* DrillBaseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC59A5F91F538E68007CF44A /* DrillBaseUITests.swift */,
+				DC59A5FB1F538E68007CF44A /* Info.plist */,
+			);
+			path = DrillBaseUITests;
+			sourceTree = "<group>";
+		};
+		DC59A6081F5540BF007CF44A /* AccountDetails */ = {
+			isa = PBXGroup;
+			children = (
+				DC59A60A1F55415D007CF44A /* AccountDetailsBaseViewController.swift */,
+				DC59A60B1F55415D007CF44A /* AccountDetailsBaseViewController.xib */,
+			);
+			path = AccountDetails;
+			sourceTree = "<group>";
+		};
+		DC59A6091F5540C6007CF44A /* SportsDrillsCategory */ = {
+			isa = PBXGroup;
+			children = (
+				DC6CD4C31F65BDEC001B77CE /* SportsDrillCategoryViewController.swift */,
+				DC6CD4CB1F65DB5A001B77CE /* BaseTabBarControllerViewController.swift */,
+			);
+			path = SportsDrillsCategory;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC59A5D51F538E67007CF44A /* DrillBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC59A5FE1F538E68007CF44A /* Build configuration list for PBXNativeTarget "DrillBase" */;
+			buildPhases = (
+				DC59A5D21F538E67007CF44A /* Sources */,
+				DC59A5D31F538E67007CF44A /* Frameworks */,
+				DC59A5D41F538E67007CF44A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrillBase;
+			productName = DrillBase;
+			productReference = DC59A5D61F538E67007CF44A /* DrillBase.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC59A5E91F538E68007CF44A /* DrillBaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC59A6011F538E68007CF44A /* Build configuration list for PBXNativeTarget "DrillBaseTests" */;
+			buildPhases = (
+				DC59A5E61F538E68007CF44A /* Sources */,
+				DC59A5E71F538E68007CF44A /* Frameworks */,
+				DC59A5E81F538E68007CF44A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC59A5EC1F538E68007CF44A /* PBXTargetDependency */,
+			);
+			name = DrillBaseTests;
+			productName = DrillBaseTests;
+			productReference = DC59A5EA1F538E68007CF44A /* DrillBaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC59A5F41F538E68007CF44A /* DrillBaseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC59A6041F538E68007CF44A /* Build configuration list for PBXNativeTarget "DrillBaseUITests" */;
+			buildPhases = (
+				DC59A5F11F538E68007CF44A /* Sources */,
+				DC59A5F21F538E68007CF44A /* Frameworks */,
+				DC59A5F31F538E68007CF44A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC59A5F71F538E68007CF44A /* PBXTargetDependency */,
+			);
+			name = DrillBaseUITests;
+			productName = DrillBaseUITests;
+			productReference = DC59A5F51F538E68007CF44A /* DrillBaseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC59A5CE1F538E67007CF44A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = DrillBase;
+				TargetAttributes = {
+					DC59A5D51F538E67007CF44A = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					DC59A5E91F538E68007CF44A = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DC59A5D51F538E67007CF44A;
+					};
+					DC59A5F41F538E68007CF44A = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DC59A5D51F538E67007CF44A;
+					};
+				};
+			};
+			buildConfigurationList = DC59A5D11F538E67007CF44A /* Build configuration list for PBXProject "DrillBase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC59A5CD1F538E67007CF44A;
+			productRefGroup = DC59A5D71F538E67007CF44A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC59A5D51F538E67007CF44A /* DrillBase */,
+				DC59A5E91F538E68007CF44A /* DrillBaseTests */,
+				DC59A5F41F538E68007CF44A /* DrillBaseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC59A5D41F538E67007CF44A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC59A5E41F538E67007CF44A /* LaunchScreen.storyboard in Resources */,
+				DC59A5E11F538E67007CF44A /* Assets.xcassets in Resources */,
+				DC59A60F1F55415D007CF44A /* AccountDetailsBaseViewController.xib in Resources */,
+				DC59A5DF1F538E67007CF44A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC59A5E81F538E68007CF44A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC59A6101F55415D007CF44A /* AccountDetailsBaseViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC59A5F31F538E68007CF44A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC59A6111F55415D007CF44A /* AccountDetailsBaseViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC59A5D21F538E67007CF44A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC59A5DC1F538E67007CF44A /* ViewController.swift in Sources */,
+				DC6CD4CC1F65DB5A001B77CE /* BaseTabBarControllerViewController.swift in Sources */,
+				DC6CD4C51F65BDEC001B77CE /* SportsDrillCategoryViewController.swift in Sources */,
+				DC59A60C1F55415D007CF44A /* AccountDetailsBaseViewController.swift in Sources */,
+				DC59A5DA1F538E67007CF44A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC59A5E61F538E68007CF44A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC6CD4C61F65BDEC001B77CE /* SportsDrillCategoryViewController.swift in Sources */,
+				DC6CD4CD1F65DB5A001B77CE /* BaseTabBarControllerViewController.swift in Sources */,
+				DC59A60D1F55415D007CF44A /* AccountDetailsBaseViewController.swift in Sources */,
+				DC59A5EF1F538E68007CF44A /* DrillBaseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC59A5F11F538E68007CF44A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC6CD4C71F65BDEC001B77CE /* SportsDrillCategoryViewController.swift in Sources */,
+				DC6CD4CE1F65DB5A001B77CE /* BaseTabBarControllerViewController.swift in Sources */,
+				DC59A60E1F55415D007CF44A /* AccountDetailsBaseViewController.swift in Sources */,
+				DC59A5FA1F538E68007CF44A /* DrillBaseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC59A5EC1F538E68007CF44A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC59A5D51F538E67007CF44A /* DrillBase */;
+			targetProxy = DC59A5EB1F538E68007CF44A /* PBXContainerItemProxy */;
+		};
+		DC59A5F71F538E68007CF44A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC59A5D51F538E67007CF44A /* DrillBase */;
+			targetProxy = DC59A5F61F538E68007CF44A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC59A5DD1F538E67007CF44A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC59A5DE1F538E67007CF44A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC59A5E21F538E67007CF44A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC59A5E31F538E67007CF44A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC59A5FC1F538E68007CF44A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC59A5FD1F538E68007CF44A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC59A5FF1F538E68007CF44A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DrillBase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.DrillBase..DrillBase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DC59A6001F538E68007CF44A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DrillBase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.DrillBase..DrillBase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DC59A6021F538E68007CF44A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DrillBaseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.DrillBase..DrillBaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrillBase.app/DrillBase";
+			};
+			name = Debug;
+		};
+		DC59A6031F538E68007CF44A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DrillBaseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.DrillBase..DrillBaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrillBase.app/DrillBase";
+			};
+			name = Release;
+		};
+		DC59A6051F538E68007CF44A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DrillBaseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.DrillBase..DrillBaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DrillBase;
+			};
+			name = Debug;
+		};
+		DC59A6061F538E68007CF44A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DrillBaseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.DrillBase..DrillBaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DrillBase;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC59A5D11F538E67007CF44A /* Build configuration list for PBXProject "DrillBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC59A5FC1F538E68007CF44A /* Debug */,
+				DC59A5FD1F538E68007CF44A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC59A5FE1F538E68007CF44A /* Build configuration list for PBXNativeTarget "DrillBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC59A5FF1F538E68007CF44A /* Debug */,
+				DC59A6001F538E68007CF44A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC59A6011F538E68007CF44A /* Build configuration list for PBXNativeTarget "DrillBaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC59A6021F538E68007CF44A /* Debug */,
+				DC59A6031F538E68007CF44A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC59A6041F538E68007CF44A /* Build configuration list for PBXNativeTarget "DrillBaseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC59A6051F538E68007CF44A /* Debug */,
+				DC59A6061F538E68007CF44A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC59A5CE1F538E67007CF44A /* Project object */;
+}
