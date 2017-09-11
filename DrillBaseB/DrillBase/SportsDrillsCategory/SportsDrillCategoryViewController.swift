@@ -12,7 +12,6 @@ class SportsDrillCategorySelection: UIViewController, UITableViewDelegate, UITab
 
     @IBOutlet weak var tableDrills: UITableView!
     @IBOutlet weak var tableCategory: UITableView!
-    
     @IBOutlet weak var tableSport: UITableView!
     
     override func viewDidLoad() {
@@ -30,6 +29,18 @@ class SportsDrillCategorySelection: UIViewController, UITableViewDelegate, UITab
     //MARK: - Tableview Delegate & Datasource
     func tableView(_ tableView:UITableView, numberOfRowsInSection section:Int) -> Int
     {
+        if(tableView == tableSport){
+            let sports = SportsModel.baseball
+            return sports.getLen()
+        }
+        if(tableView == tableDrills){
+            let drills = DrillsModel.catching
+            return drills.getLen( )
+        }
+        if(tableView == tableCategory){
+            let category = SportsModel.baseball
+            return category.getLen()
+        }
         return 10
     }
     
@@ -42,11 +53,79 @@ class SportsDrillCategorySelection: UIViewController, UITableViewDelegate, UITab
     {
         
         let cell: UITableViewCell = UITableViewCell(style: UITableViewCellStyle.subtitle, reuseIdentifier: "SDCTableViewCell")
-        //cell.backgroundColor = UIColor.blue
+       
+        if(tableView == tableSport){
+            switch indexPath.row  {
+            case 0:
+                 cell.detailTextLabel?.text =   SportsModel.baseball.rawValue
+            case 1:
+                cell.detailTextLabel?.text =   SportsModel.basketBall.rawValue
+            case 2:
+                cell.detailTextLabel?.text =   SportsModel.football.rawValue
+            case 3:
+                cell.detailTextLabel?.text =   SportsModel.soccer.rawValue
+            case 4:
+                cell.detailTextLabel?.text =   SportsModel.volleyball.rawValue
+            default:
+                cell.detailTextLabel?.text =   "None"
+                
+            }
+           
+            
+        }
+        
+            if(tableView == tableDrills){
+                switch indexPath.row  {
+                case 0:
+                    cell.detailTextLabel?.text =   DrillsModel.catching.rawValue
+                case 1:
+                    cell.detailTextLabel?.text =   DrillsModel.fielding.rawValue
+                case 2:
+                    cell.detailTextLabel?.text =   DrillsModel.hitting.rawValue
+                case 3:
+                    cell.detailTextLabel?.text =   DrillsModel.pitching.rawValue
+                case 4:
+                    cell.detailTextLabel?.text =   DrillsModel.throwing.rawValue
+                default:
+                    cell.detailTextLabel?.text =   "None"
+                    
+                }
+                
+            }
+            
+                if(tableView == tableCategory){
+                    switch indexPath.row  {
+                    case 0:
+                        cell.detailTextLabel?.text =   CategoryModel.balance.rawValue
+                    case 1:
+                        cell.detailTextLabel?.text =  CategoryModel.batPath.rawValue
+                    case 2:
+                        cell.detailTextLabel?.text =   CategoryModel.batspeed.rawValue
+                    case 3:
+                        cell.detailTextLabel?.text =   CategoryModel.extensions.rawValue
+                    case 4:
+                        cell.detailTextLabel?.text =  CategoryModel.lowerbody.rawValue
+                        
+                    case 5:
+                        cell.detailTextLabel?.text =   CategoryModel.zonehitting.rawValue
+                    case 6:
+                        cell.detailTextLabel?.text =   CategoryModel.timing.rawValue
+                    case 7:
+                        cell.detailTextLabel?.text =  CategoryModel.other.rawValue
+                        
+                        
+                    default:
+                        cell.detailTextLabel?.text =   "None"
+                        
+                    }
+            }
+            
+ 
+        
         return cell
     }
     
-    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath)
+    @nonobjc func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: IndexPath)
     {
         
     }

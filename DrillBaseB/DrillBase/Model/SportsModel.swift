@@ -8,11 +8,16 @@
 
 import UIKit
 
-enum SportsModel {
+enum SportsModel :String {
+ 
+    func getLen()->Int {
+        return 5
     
+    }
+    case baseball              = "BaseBall"
+    case football               = "FootBall"
+    case soccer                 = "Soccer"
+    case basketBall           = "BasketBall"
+    case volleyball            = "VolleyBall"
     
-    
-    
-    
-
 }
