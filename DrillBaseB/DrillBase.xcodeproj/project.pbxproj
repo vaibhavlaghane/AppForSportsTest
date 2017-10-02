@@ -41,6 +41,11 @@
 		DC6CD4E61F6607D8001B77CE /* SportsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6CD4E51F6607D8001B77CE /* SportsModel.swift */; };
 		DC6CD4E71F6607D8001B77CE /* SportsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6CD4E51F6607D8001B77CE /* SportsModel.swift */; };
 		DC6CD4E81F6607D8001B77CE /* SportsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6CD4E51F6607D8001B77CE /* SportsModel.swift */; };
+		DC6F02261F81AF4E00869B76 /* TimeLineViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6F02241F81AF4D00869B76 /* TimeLineViewViewController.swift */; };
+		DC6F02271F81AF4E00869B76 /* TimeLineViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC6F02251F81AF4D00869B76 /* TimeLineViewViewController.xib */; };
+		DC6F022B1F81B14A00869B76 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6F02291F81B14A00869B76 /* HomePage.swift */; };
+		DC6F022C1F81B14A00869B76 /* HomePage.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC6F022A1F81B14A00869B76 /* HomePage.xib */; };
+		DC6F022F1F81C0D400869B76 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6F022E1F81C0D400869B76 /* Video.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +88,11 @@
 		DC6CD4DB1F65FF3E001B77CE /* SDCTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDCTableViewCell.swift; sourceTree = "<group>"; };
 		DC6CD4DC1F65FF3E001B77CE /* SDCTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SDCTableViewCell.xib; sourceTree = "<group>"; };
 		DC6CD4E51F6607D8001B77CE /* SportsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SportsModel.swift; sourceTree = "<group>"; };
+		DC6F02241F81AF4D00869B76 /* TimeLineViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeLineViewViewController.swift; sourceTree = "<group>"; };
+		DC6F02251F81AF4D00869B76 /* TimeLineViewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimeLineViewViewController.xib; sourceTree = "<group>"; };
+		DC6F02291F81B14A00869B76 /* HomePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		DC6F022A1F81B14A00869B76 /* HomePage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomePage.xib; sourceTree = "<group>"; };
+		DC6F022E1F81C0D400869B76 /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Video.swift; path = ../../Resources/Video.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +186,9 @@
 		DC59A6091F5540C6007CF44A /* SportsDrillsCategory */ = {
 			isa = PBXGroup;
 			children = (
+				DC6F02361F81C14400869B76 /* Video */,
+				DC6F02281F81B13400869B76 /* HomePage */,
+				DC6F02231F81AF1F00869B76 /* Timeline */,
 				DC6CD4C31F65BDEC001B77CE /* SportsDrillCategoryViewController.swift */,
 				DC6CD4CB1F65DB5A001B77CE /* BaseTabBarControllerViewController.swift */,
 				DC6CD4DB1F65FF3E001B77CE /* SDCTableViewCell.swift */,
@@ -192,6 +205,32 @@
 				DC0E0DFE1F664C4C0013617E /* CategoryModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		DC6F02231F81AF1F00869B76 /* Timeline */ = {
+			isa = PBXGroup;
+			children = (
+				DC6F02241F81AF4D00869B76 /* TimeLineViewViewController.swift */,
+				DC6F02251F81AF4D00869B76 /* TimeLineViewViewController.xib */,
+			);
+			path = Timeline;
+			sourceTree = "<group>";
+		};
+		DC6F02281F81B13400869B76 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				DC6F02291F81B14A00869B76 /* HomePage.swift */,
+				DC6F022A1F81B14A00869B76 /* HomePage.xib */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		DC6F02361F81C14400869B76 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				DC6F022E1F81C0D400869B76 /* Video.swift */,
+			);
+			path = Video;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,10 +340,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC6F02271F81AF4E00869B76 /* TimeLineViewViewController.xib in Resources */,
 				DC59A5E41F538E67007CF44A /* LaunchScreen.storyboard in Resources */,
 				DC6CD4E01F65FF3E001B77CE /* SDCTableViewCell.xib in Resources */,
 				DC59A5E11F538E67007CF44A /* Assets.xcassets in Resources */,
 				DC59A60F1F55415D007CF44A /* AccountDetailsBaseViewController.xib in Resources */,
+				DC6F022C1F81B14A00869B76 /* HomePage.xib in Resources */,
 				DC59A5DF1F538E67007CF44A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -335,7 +376,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC59A5DC1F538E67007CF44A /* ViewController.swift in Sources */,
+				DC6F022F1F81C0D400869B76 /* Video.swift in Sources */,
+				DC6F022B1F81B14A00869B76 /* HomePage.swift in Sources */,
 				DC6CD4CC1F65DB5A001B77CE /* BaseTabBarControllerViewController.swift in Sources */,
+				DC6F02261F81AF4E00869B76 /* TimeLineViewViewController.swift in Sources */,
 				DC6CD4C51F65BDEC001B77CE /* SportsDrillCategoryViewController.swift in Sources */,
 				DC59A60C1F55415D007CF44A /* AccountDetailsBaseViewController.swift in Sources */,
 				DC6CD4E61F6607D8001B77CE /* SportsModel.swift in Sources */,

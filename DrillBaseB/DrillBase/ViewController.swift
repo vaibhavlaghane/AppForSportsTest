@@ -9,10 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
     @IBOutlet weak var signInLabel: UILabel!
-
     @IBOutlet weak var registerWithFacebookLabel: UILabel!
     @IBOutlet weak var registerWithEmailLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -47,12 +48,13 @@ class ViewController: UIViewController {
     @IBAction func loginButtonClicked(_ sender: Any) {
         
         print("login button clicked ")
+//        let baseTabBarController = storyboard?.instantiateViewController(withIdentifier: "BaseTabBarController") as! BaseTabBarController
+//        self.present(baseTabBarController, animated:true , completion: nil)
         
-        let baseTabBarController = storyboard?.instantiateViewController(withIdentifier: "BaseTabBarController") as! BaseTabBarController
-        
-        self.present(baseTabBarController, animated:true , completion: nil)
-        
-        
+        print("login button clicked ")
+        let homePage = HomePage(nibName: "HomePage", bundle: nil )
+        self.present(homePage, animated:true , completion: nil)
+
     }
     
 

@@ -15,9 +15,9 @@ enum DrillsModel :String {
             
         }
         case hitting              = "Hitting"
-        case catching               = "Catching"
-        case pitching                 = "Pitching"
-        case throwing           = "Trowing"
-        case fielding            = "Fielding"
+        case catching           = "Catching"
+        case pitching            = "Pitching"
+        case throwing          = "Trowing"
+        case fielding             = "Fielding"
         
 }

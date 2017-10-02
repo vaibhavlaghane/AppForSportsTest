@@ -1,17 +1,18 @@
 //
-//  BaseTabBarControllerViewController.swift
+//  TimeLineViewViewController.swift
 //  DrillBase
 //
-//  Created by Vaibhav N Laghane on 9/10/17.
+//  Created by Vaibhav N Laghane on 10/1/17.
 //  Copyright © 2017 DrillBase. All rights reserved.
 //
 
 import UIKit
 
-class BaseTabBarController: UITabBarController {
+class TimeLineViewViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
     }
 

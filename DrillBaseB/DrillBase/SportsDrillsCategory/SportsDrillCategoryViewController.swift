@@ -16,7 +16,6 @@ class SportsDrillCategorySelection: UIViewController, UITableViewDelegate, UITab
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
 
@@ -55,7 +54,9 @@ class SportsDrillCategorySelection: UIViewController, UITableViewDelegate, UITab
         let cell: UITableViewCell = UITableViewCell(style: UITableViewCellStyle.subtitle, reuseIdentifier: "SDCTableViewCell")
        
         if(tableView == tableSport){
+           
             switch indexPath.row  {
+            
             case 0:
                  cell.detailTextLabel?.text =   SportsModel.baseball.rawValue
             case 1:
@@ -68,14 +69,13 @@ class SportsDrillCategorySelection: UIViewController, UITableViewDelegate, UITab
                 cell.detailTextLabel?.text =   SportsModel.volleyball.rawValue
             default:
                 cell.detailTextLabel?.text =   "None"
-                
+          
             }
-           
-            
         }
         
             if(tableView == tableDrills){
                 switch indexPath.row  {
+              
                 case 0:
                     cell.detailTextLabel?.text =   DrillsModel.catching.rawValue
                 case 1:
@@ -86,15 +86,16 @@ class SportsDrillCategorySelection: UIViewController, UITableViewDelegate, UITab
                     cell.detailTextLabel?.text =   DrillsModel.pitching.rawValue
                 case 4:
                     cell.detailTextLabel?.text =   DrillsModel.throwing.rawValue
+                
                 default:
                     cell.detailTextLabel?.text =   "None"
-                    
                 }
                 
             }
             
                 if(tableView == tableCategory){
                     switch indexPath.row  {
+                  
                     case 0:
                         cell.detailTextLabel?.text =   CategoryModel.balance.rawValue
                     case 1:
@@ -105,22 +106,17 @@ class SportsDrillCategorySelection: UIViewController, UITableViewDelegate, UITab
                         cell.detailTextLabel?.text =   CategoryModel.extensions.rawValue
                     case 4:
                         cell.detailTextLabel?.text =  CategoryModel.lowerbody.rawValue
-                        
                     case 5:
                         cell.detailTextLabel?.text =   CategoryModel.zonehitting.rawValue
                     case 6:
                         cell.detailTextLabel?.text =   CategoryModel.timing.rawValue
                     case 7:
                         cell.detailTextLabel?.text =  CategoryModel.other.rawValue
-                        
-                        
                     default:
                         cell.detailTextLabel?.text =   "None"
                         
                     }
             }
-            
- 
         
         return cell
     }

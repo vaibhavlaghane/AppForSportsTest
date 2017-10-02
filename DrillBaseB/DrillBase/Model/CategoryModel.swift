@@ -16,8 +16,8 @@ enum  CategoryModel    :String {
         }
         case batPath                = "BatPath"
         case extensions           = "Extension"
-        case balance                 = "Balance"
-        case batspeed               = "BatSpeed"
+        case balance                = "Balance"
+        case batspeed              = "BatSpeed"
         case lowerbody            = "LowerBody"
         case zonehitting           = "ZoneHitting"
         case timing                   = "Timing"
