@@ -21,9 +21,7 @@
 		DC4848A21F9BD3FF00E6BCE5 /* AddToFolder6.png in Resources */ = {isa = PBXBuildFile; fileRef = DC48487A1F9BD3FE00E6BCE5 /* AddToFolder6.png */; };
 		DC4848A31F9BD3FF00E6BCE5 /* AddToFolder7.png in Resources */ = {isa = PBXBuildFile; fileRef = DC48487B1F9BD3FE00E6BCE5 /* AddToFolder7.png */; };
 		DC4848A41F9BD3FF00E6BCE5 /* hamburgermenu.png in Resources */ = {isa = PBXBuildFile; fileRef = DC48487D1F9BD3FE00E6BCE5 /* hamburgermenu.png */; };
-		DC4848A51F9BD3FF00E6BCE5 /* hamburgermenu2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DC48487E1F9BD3FE00E6BCE5 /* hamburgermenu2.jpeg */; };
 		DC4848A61F9BD3FF00E6BCE5 /* hamburgermenu3.png in Resources */ = {isa = PBXBuildFile; fileRef = DC48487F1F9BD3FE00E6BCE5 /* hamburgermenu3.png */; };
-		DC4848A71F9BD3FF00E6BCE5 /* hamburgermenu4.png in Resources */ = {isa = PBXBuildFile; fileRef = DC4848801F9BD3FE00E6BCE5 /* hamburgermenu4.png */; };
 		DC4848A81F9BD3FF00E6BCE5 /* hamburgermenu5.png in Resources */ = {isa = PBXBuildFile; fileRef = DC4848811F9BD3FE00E6BCE5 /* hamburgermenu5.png */; };
 		DC4848A91F9BD3FF00E6BCE5 /* hamburgermenu6.png in Resources */ = {isa = PBXBuildFile; fileRef = DC4848821F9BD3FE00E6BCE5 /* hamburgermenu6.png */; };
 		DC4848AA1F9BD3FF00E6BCE5 /* hamburgermenu7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DC4848831F9BD3FE00E6BCE5 /* hamburgermenu7.jpeg */; };
@@ -139,13 +137,11 @@
 		DC48487A1F9BD3FE00E6BCE5 /* AddToFolder6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AddToFolder6.png; sourceTree = "<group>"; };
 		DC48487B1F9BD3FE00E6BCE5 /* AddToFolder7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AddToFolder7.png; sourceTree = "<group>"; };
 		DC48487D1F9BD3FE00E6BCE5 /* hamburgermenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hamburgermenu.png; sourceTree = "<group>"; };
-		DC48487E1F9BD3FE00E6BCE5 /* hamburgermenu2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hamburgermenu2.jpeg; sourceTree = "<group>"; };
 		DC48487F1F9BD3FE00E6BCE5 /* hamburgermenu3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hamburgermenu3.png; sourceTree = "<group>"; };
-		DC4848801F9BD3FE00E6BCE5 /* hamburgermenu4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hamburgermenu4.png; sourceTree = "<group>"; };
 		DC4848811F9BD3FE00E6BCE5 /* hamburgermenu5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hamburgermenu5.png; sourceTree = "<group>"; };
 		DC4848821F9BD3FE00E6BCE5 /* hamburgermenu6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hamburgermenu6.png; sourceTree = "<group>"; };
-		DC4848831F9BD3FE00E6BCE5 /* hamburgermenu7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hamburgermenu7.jpeg; sourceTree = "<group>"; };
-		DC4848841F9BD3FE00E6BCE5 /* hamburgermenu8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hamburgermenu8.jpeg; sourceTree = "<group>"; };
+		DC4848831F9BD3FE00E6BCE5 /* hamburgermenu7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hamburgermenu7.jpeg; path = ../hamburgerMenu/hamburgermenu7.jpeg; sourceTree = "<group>"; };
+		DC4848841F9BD3FE00E6BCE5 /* hamburgermenu8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hamburgermenu8.jpeg; path = ../hamburgerMenu/hamburgermenu8.jpeg; sourceTree = "<group>"; };
 		DC4848861F9BD3FE00E6BCE5 /* HomePageicon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HomePageicon1.png; sourceTree = "<group>"; };
 		DC4848871F9BD3FE00E6BCE5 /* HomePageicon2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HomePageicon2.jpeg; sourceTree = "<group>"; };
 		DC4848881F9BD3FE00E6BCE5 /* HomePageicon3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HomePageicon3.jpeg; sourceTree = "<group>"; };
@@ -267,13 +263,9 @@
 			isa = PBXGroup;
 			children = (
 				DC48487D1F9BD3FE00E6BCE5 /* hamburgermenu.png */,
-				DC48487E1F9BD3FE00E6BCE5 /* hamburgermenu2.jpeg */,
 				DC48487F1F9BD3FE00E6BCE5 /* hamburgermenu3.png */,
-				DC4848801F9BD3FE00E6BCE5 /* hamburgermenu4.png */,
 				DC4848811F9BD3FE00E6BCE5 /* hamburgermenu5.png */,
 				DC4848821F9BD3FE00E6BCE5 /* hamburgermenu6.png */,
-				DC4848831F9BD3FE00E6BCE5 /* hamburgermenu7.jpeg */,
-				DC4848841F9BD3FE00E6BCE5 /* hamburgermenu8.jpeg */,
 			);
 			path = hamburgerMenu;
 			sourceTree = "<group>";
@@ -282,6 +274,8 @@
 			isa = PBXGroup;
 			children = (
 				DC4848861F9BD3FE00E6BCE5 /* HomePageicon1.png */,
+				DC4848831F9BD3FE00E6BCE5 /* hamburgermenu7.jpeg */,
+				DC4848841F9BD3FE00E6BCE5 /* hamburgermenu8.jpeg */,
 				DC4848871F9BD3FE00E6BCE5 /* HomePageicon2.jpeg */,
 				DC4848881F9BD3FE00E6BCE5 /* HomePageicon3.jpeg */,
 				DC4848891F9BD3FE00E6BCE5 /* HomePageicon4.png */,
@@ -556,7 +550,6 @@
 				DC4848A21F9BD3FF00E6BCE5 /* AddToFolder6.png in Resources */,
 				DC4848B01F9BD3FF00E6BCE5 /* HomePageicon5.jpeg in Resources */,
 				DC4848BA1F9BD3FF00E6BCE5 /* searchIcon2.png in Resources */,
-				DC4848A71F9BD3FF00E6BCE5 /* hamburgermenu4.png in Resources */,
 				DC6F023C1F81ECBF00869B76 /* Catching-Framing.mov in Resources */,
 				DC4848A81F9BD3FF00E6BCE5 /* hamburgermenu5.png in Resources */,
 				DC6F02271F81AF4E00869B76 /* TimeLineViewViewController.xib in Resources */,
@@ -568,7 +561,6 @@
 				DC4848A11F9BD3FF00E6BCE5 /* AddToFolder5.jpeg in Resources */,
 				DC4848BD1F9BD3FF00E6BCE5 /* searchIcon5.jpeg in Resources */,
 				DC4848C01F9BD3FF00E6BCE5 /* searchIcon8.png in Resources */,
-				DC4848A51F9BD3FF00E6BCE5 /* hamburgermenu2.jpeg in Resources */,
 				DC4848AB1F9BD3FF00E6BCE5 /* hamburgermenu8.jpeg in Resources */,
 				DC4848AE1F9BD3FF00E6BCE5 /* HomePageicon3.jpeg in Resources */,
 				DC6CD4E01F65FF3E001B77CE /* SDCTableViewCell.xib in Resources */,

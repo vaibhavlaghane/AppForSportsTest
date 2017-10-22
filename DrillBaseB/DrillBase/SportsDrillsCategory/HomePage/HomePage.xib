@@ -11,7 +11,6 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomePage" customModule="DrillBase" customModuleProvider="target">
             <connections>
-                <outlet property="navBar" destination="LZT-kZ-x29" id="cSi-el-42p"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -23,27 +22,38 @@
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="AbA-IH-KmR">
                     <rect key="frame" x="0.0" y="14" width="375" height="648"/>
                     <subviews>
-                        <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LZT-kZ-x29">
+                        <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Tj-GP-Kwm">
                             <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                            <items>
-                                <navigationItem title="DrillBase" id="lDi-A2-aZD">
-                                    <barButtonItem key="leftBarButtonItem" image="hamburgermenu.png" style="plain" id="XT6-d0-85P">
-                                        <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="36K-Sc-HTg">
-                                            <rect key="frame" x="16" y="7" width="83" height="30"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <state key="normal" title="Menu"/>
-                                        </button>
-                                    </barButtonItem>
-                                    <barButtonItem key="rightBarButtonItem" image="image_profile.jpeg" style="plain" id="sPe-l5-a7q">
-                                        <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="lyS-KR-NHT">
-                                            <rect key="frame" x="276" y="7" width="83" height="30"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <state key="normal" title="Profile"/>
-                                        </button>
-                                    </barButtonItem>
-                                </navigationItem>
-                            </items>
-                        </navigationBar>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qXk-lM-ecE">
+                                    <rect key="frame" x="0.0" y="0.0" width="70" height="44"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="44" id="0M4-VQ-s6z"/>
+                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="70" id="VcE-Uh-qvo"/>
+                                        <constraint firstAttribute="width" constant="70" id="lda-fC-P2z"/>
+                                    </constraints>
+                                    <state key="normal" image="hamburgermenu5.png"/>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ktL-g8-NXR">
+                                    <rect key="frame" x="70" y="0.0" width="235" height="44"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="160" id="jwX-SF-oHb"/>
+                                    </constraints>
+                                    <state key="normal" title="DrillBase">
+                                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xYh-KC-bgM">
+                                    <rect key="frame" x="305" y="0.0" width="70" height="44"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="70" id="tm8-Vv-xZe"/>
+                                    </constraints>
+                                    <state key="normal" image="image_profile2.png"/>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </stackView>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FdL-sr-E4w">
                             <rect key="frame" x="0.0" y="44" width="375" height="554"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -51,40 +61,50 @@
                         <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ok8-KX-I2l">
                             <rect key="frame" x="0.0" y="598" width="375" height="50"/>
                             <subviews>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YgD-Ds-zDF">
-                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="roZ-GZ-8Xo">
+                                    <rect key="frame" x="0.0" y="0.0" width="80" height="50"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="D9y-d3-4Id"/>
+                                    </constraints>
                                     <state key="normal" image="HomePageicon7.png"/>
                                 </button>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U9X-AB-UHu">
-                                    <rect key="frame" x="50" y="0.0" width="50" height="50"/>
-                                    <state key="normal" image="HomePageicon7.png"/>
+                                <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m4P-2a-4Sp">
+                                    <rect key="frame" x="80" y="0.0" width="70" height="50"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="70" id="7zX-eb-hMb"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="39"/>
+                                    <state key="normal" title="I">
+                                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    </state>
                                 </button>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X6E-4u-qgy">
-                                    <rect key="frame" x="100" y="0.0" width="50" height="50"/>
-                                    <state key="normal" image="HomePageicon7.png"/>
+                                <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3dt-vq-k1M">
+                                    <rect key="frame" x="150" y="0.0" width="85" height="50"/>
+                                    <state key="normal" image="home_button50.png"/>
                                 </button>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jet-3M-SeS">
-                                    <rect key="frame" x="150" y="0.0" width="50" height="50"/>
-                                    <state key="normal" image="HomePageicon7.png"/>
-                                </button>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9gm-Hx-57w">
-                                    <rect key="frame" x="200" y="0.0" width="50" height="50"/>
-                                    <state key="normal" image="HomePageicon7.png"/>
-                                </button>
-                                <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3mb-eY-ipO">
-                                    <rect key="frame" x="250" y="0.0" width="75" height="50"/>
+                                <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i4S-ck-79A">
+                                    <rect key="frame" x="235" y="0.0" width="70" height="50"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="70" id="TH2-uA-E4r"/>
+                                    </constraints>
                                     <state key="normal" image="searchIcon.png"/>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oZl-7n-gJD">
-                                    <rect key="frame" x="325" y="0.0" width="50" height="50"/>
+                                    <rect key="frame" x="305" y="0.0" width="70" height="50"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="70" id="RX0-5M-ZTF"/>
+                                    </constraints>
                                     <state key="normal" image="AddToFolder3.png"/>
                                 </button>
                             </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         </stackView>
                     </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </stackView>
             </subviews>
-            <color key="backgroundColor" red="0.1203016061" green="0.3381557926" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstAttribute="bottom" secondItem="AbA-IH-KmR" secondAttribute="bottom" constant="5" id="3tc-Ak-TIg"/>
                 <constraint firstItem="AbA-IH-KmR" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="14" id="pm5-UQ-4wD"/>
@@ -97,8 +117,9 @@
     <resources>
         <image name="AddToFolder3.png" width="50" height="50"/>
         <image name="HomePageicon7.png" width="50" height="50"/>
-        <image name="hamburgermenu.png" width="225" height="225"/>
-        <image name="image_profile.jpeg" width="160" height="160"/>
+        <image name="hamburgermenu5.png" width="225" height="225"/>
+        <image name="home_button50.png" width="50" height="50"/>
+        <image name="image_profile2.png" width="50" height="50"/>
         <image name="searchIcon.png" width="50" height="50"/>
     </resources>
 </document>
