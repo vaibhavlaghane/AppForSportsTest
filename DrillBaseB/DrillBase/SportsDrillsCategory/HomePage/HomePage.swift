@@ -17,66 +17,61 @@ class HomePage: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-
+//
+//        // Do any additional setup after loading the view.
+//        let rect1       = CGRect(x: 50, y: 100, width: 300, height: 100)
+//        let view1       = addView(rect: rect1)
+//        let rect2        = CGRect(x: 50, y: 200, width: 300, height: 100)
+//        let view2 = addView(rect: rect2)
+//        let rect3 = CGRect(x: 50, y: 300, width: 300, height: 100)
+//        let view3 = addView(rect: rect1)
+//        
+//        self.view.addSubview(view1 )
+//        self.view.addSubview(rect2)
+//        self.view.addSubview(rect3)
+//        
     }
 
     
     func loadVideo(){
-        
-////        var fileNamepath =
-////    
-////        NSString  *fileNamePath = mVideo;
-////        NSArray   *paths = NSSearchPathForDirectoriesInDomains(NSCachesDirectory,NSUserDomainMask, YES);
-////        NSString  *documentsDirectory = [paths  objectAtIndex:0];
-////        NSString  *oldappSettingsPath = [documentsDirectory stringByAppendingPathComponent:fileNamePath];
-//      //  var path:URL  =
-////        self.mPlayer = [[MPMoviePlayerController alloc] initWithContentURL:path];
-//        
-//        //let playerViewController = AVPlayerViewController()
-//        
-//        let videoURLWithPath = "/Resources/Catching-Framing.mov"
-//        let videoURL = NSURL(string: videoURLWithPath)
-//      //  playerViewController.player = AVPlayer.init(url: videoURL as! URL) as AVPlayer
-//        
-//        
-//        var mPlayer = MPMoviePlayerController(contentURL: videoURL as URL!)
-//        mPlayer.controlStyle = .fullscreen
-//        mPlayer.fullscreen = YES;
-//        mPlayer.scalingMode = .fill//  MPMovieScalingModeFill;
-//        [[self.mPlayer view] setFrame: CGRectMake(0, 0, 480, 320)];
-//        [self.view addSubview:[self.mPlayer view]];
-//        [self.mPlayer prepareToPlay];
-//        [self.mPlayer play];
-//        
-     
+ 
         let playVideo = Video()
-       if  let player = playVideo.player()// playVideo.videoPlayer()
-       {
-        self.present(player, animated: true) {
-            player.player!.play()
-        }
+        
+        if  let player = playVideo.player()// playVideo.videoPlayer()
+        {
+            self.present(player, animated: true) {
+                player.player!.play()
+            }
         }
     }
     
-    
-
-    override func viewDidAppear(_ animated: Bool) {
+    func addView( rect: CGRect){
         
-        self.loadVideo()
+        // Do any additional setup after loading the view.
+        let rect = CGRect(x: 50, y: 200, width: 300, height: 100)
+        let view1 = ContentViewHolder(frame: rect)
+        let layer = view1.layer
+        layer.cornerRadius = 2
+        view1.layer.cornerRadius = 12
+        
+        
+    }
+    
+    
+    override func viewDidAppear(_ animated: Bool) {
+        //self.loadVideo()
     }
     
     override func viewDidLayoutSubviews() {
-       // <#code#>
+       //
     }
     
     override func viewWillLayoutSubviews() {
-       // <#code#>
+       // code
     }
     
     override func viewWillAppear(_ animated: Bool) {
-       // <#code#>
+       // code
     }
     
     override func didReceiveMemoryWarning() {
