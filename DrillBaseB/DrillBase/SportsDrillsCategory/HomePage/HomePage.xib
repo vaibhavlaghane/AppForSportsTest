@@ -132,7 +132,7 @@
                                         <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     </state>
                                 </button>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZOv-kz-my5">
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZOv-kz-my5" customClass="UIButtonCustom" customModule="DrillBase" customModuleProvider="target">
                                     <rect key="frame" x="105" y="507" width="165" height="25"/>
                                     <constraints>
                                         <constraint firstAttribute="width" constant="165" id="FRb-aM-pSU"/>
@@ -142,7 +142,7 @@
                                         <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </state>
                                 </button>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Orx-cK-EeJ">
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Orx-cK-EeJ" customClass="UIButtonCustom" customModule="DrillBase" customModuleProvider="target">
                                     <rect key="frame" x="8" y="0.0" width="109" height="29"/>
                                     <state key="normal" title="Sport">
                                         <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
