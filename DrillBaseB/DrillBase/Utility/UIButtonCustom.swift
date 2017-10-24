@@ -16,16 +16,13 @@ class UIButtonCustom: UIButton {
     override func draw(_ rect: CGRect) {
         // Drawing code
         
-//        let x = rect.origin.x
-//        let y = rect.origin.y
-//        
         let width = rect.width
         let height = rect.height
         
         let path = UIBezierPath()
-        path.move(to: CGPoint(x: width/2, y: height/2 ) )
-        path.addLine(to: CGPoint(x: width/2 - width/4 , y: 0 ) )
-        path.addLine(to: CGPoint(x: width/2 + width/4, y: 0 ) )
+        path.move(to: CGPoint(x: width/2 , y: height ) )
+        path.addLine(to: CGPoint(x: width/2 - width/4 , y: height/2 + height/4 ) )
+        path.addLine(to: CGPoint(x: width/2 + width/4, y: height/2 + height/4 ) )
         path.close()
         
         let layer = CAShapeLayer()

@@ -120,13 +120,13 @@
                                         <constraint firstAttribute="height" constant="120" id="oLL-Zq-TJi"/>
                                     </constraints>
                                 </view>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="84U-t1-dZS">
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="84U-t1-dZS" customClass="UIButtonCustom" customModule="DrillBase" customModuleProvider="target">
                                     <rect key="frame" x="105" y="165" width="165" height="25"/>
                                     <state key="normal" title="Featured">
                                         <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     </state>
                                 </button>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MNY-SV-TRR">
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MNY-SV-TRR" customClass="UIButtonCustom" customModule="DrillBase" customModuleProvider="target">
                                     <rect key="frame" x="105" y="326" width="165" height="30"/>
                                     <state key="normal" title="New Drills">
                                         <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -148,7 +148,7 @@
                                         <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     </state>
                                 </button>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HBV-Ri-nOQ">
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HBV-Ri-nOQ" customClass="UIButtonCustom" customModule="DrillBase" customModuleProvider="target">
                                     <rect key="frame" x="133" y="0.0" width="109" height="29"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="29" id="INW-oy-Zcb"/>
@@ -158,7 +158,7 @@
                                         <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     </state>
                                 </button>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xn1-Kq-xrk">
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xn1-Kq-xrk" customClass="UIButtonCustom" customModule="DrillBase" customModuleProvider="target">
                                     <rect key="frame" x="250" y="0.0" width="109" height="29"/>
                                     <state key="normal" title="Category">
                                         <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
