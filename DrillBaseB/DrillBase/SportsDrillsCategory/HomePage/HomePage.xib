@@ -62,25 +62,61 @@
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zZh-bQ-ENA">
                                     <rect key="frame" x="67" y="37" width="240" height="120"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MzG-hQ-6nS">
+                                            <rect key="frame" x="0.0" y="0.0" width="36" height="29"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="36" id="Y0y-bC-wWv"/>
+                                            </constraints>
+                                            <state key="normal" image="hamburgermenu5.png"/>
+                                        </button>
+                                    </subviews>
                                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                     <constraints>
                                         <constraint firstAttribute="width" constant="240" id="Qis-yy-12V"/>
                                         <constraint firstAttribute="height" constant="120" id="cZB-7G-xPh"/>
+                                        <constraint firstAttribute="bottom" secondItem="MzG-hQ-6nS" secondAttribute="bottom" constant="91" id="mPN-Nt-Znq"/>
+                                        <constraint firstItem="MzG-hQ-6nS" firstAttribute="top" secondItem="zZh-bQ-ENA" secondAttribute="top" id="tft-ce-der"/>
+                                        <constraint firstItem="MzG-hQ-6nS" firstAttribute="leading" secondItem="zZh-bQ-ENA" secondAttribute="leading" id="xi1-BM-muj"/>
                                     </constraints>
                                 </view>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="scD-8G-qAP">
                                     <rect key="frame" x="67" y="198" width="240" height="120"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w2S-lF-v26">
+                                            <rect key="frame" x="0.0" y="0.0" width="36" height="29"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="36" id="yO0-Ab-5oA"/>
+                                            </constraints>
+                                            <state key="normal" image="hamburgermenu5.png"/>
+                                        </button>
+                                    </subviews>
                                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                     <constraints>
                                         <constraint firstAttribute="width" constant="240" id="KdZ-bN-X0E"/>
+                                        <constraint firstAttribute="bottom" secondItem="w2S-lF-v26" secondAttribute="bottom" constant="91" id="LXe-EQ-Bdt"/>
+                                        <constraint firstItem="w2S-lF-v26" firstAttribute="leading" secondItem="scD-8G-qAP" secondAttribute="leading" id="jSo-LZ-x4X"/>
                                         <constraint firstAttribute="height" constant="120" id="oMF-r0-rfG"/>
+                                        <constraint firstItem="w2S-lF-v26" firstAttribute="top" secondItem="scD-8G-qAP" secondAttribute="top" id="xXG-89-c0U"/>
                                     </constraints>
                                 </view>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pFQ-T6-OGT">
                                     <rect key="frame" x="67" y="370" width="240" height="120"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Vm-0e-qye">
+                                            <rect key="frame" x="0.0" y="0.0" width="36" height="29"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="36" id="8Gs-Yh-rRF"/>
+                                            </constraints>
+                                            <state key="normal" image="hamburgermenu5.png"/>
+                                        </button>
+                                    </subviews>
                                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                     <constraints>
+                                        <constraint firstItem="3Vm-0e-qye" firstAttribute="top" secondItem="pFQ-T6-OGT" secondAttribute="top" id="6E7-Mu-pSS"/>
+                                        <constraint firstItem="3Vm-0e-qye" firstAttribute="leading" secondItem="pFQ-T6-OGT" secondAttribute="leading" id="HtG-hs-7Hu"/>
                                         <constraint firstAttribute="width" constant="240" id="iOC-I4-Dcx"/>
+                                        <constraint firstAttribute="bottom" secondItem="3Vm-0e-qye" secondAttribute="bottom" constant="91" id="iyj-yk-EQ2"/>
                                         <constraint firstAttribute="height" constant="120" id="oLL-Zq-TJi"/>
                                     </constraints>
                                 </view>
