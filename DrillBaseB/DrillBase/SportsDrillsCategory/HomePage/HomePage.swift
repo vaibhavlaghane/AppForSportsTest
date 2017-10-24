@@ -29,7 +29,12 @@ class HomePage: UIViewController {
 //        self.view.addSubview(view1 )
 //        self.view.addSubview(rect2)
 //        self.view.addSubview(rect3)
-//        
+ 
+        let image = UIImage.triangle(side: 200, color: UIColor.green)
+        let imageView = UIImageView(image: image)
+        
+           // self.view.addSubview(imageView)
+        
     }
 
     

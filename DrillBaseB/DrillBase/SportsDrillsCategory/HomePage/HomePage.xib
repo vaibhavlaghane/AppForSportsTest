@@ -6,6 +6,9 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -51,12 +54,112 @@
                                     <state key="normal" image="image_profile2.png"/>
                                 </button>
                             </subviews>
-                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         </stackView>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FdL-sr-E4w">
                             <rect key="frame" x="0.0" y="44" width="375" height="554"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zZh-bQ-ENA">
+                                    <rect key="frame" x="67" y="37" width="240" height="120"/>
+                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="240" id="Qis-yy-12V"/>
+                                        <constraint firstAttribute="height" constant="120" id="cZB-7G-xPh"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="scD-8G-qAP">
+                                    <rect key="frame" x="67" y="198" width="240" height="120"/>
+                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="240" id="KdZ-bN-X0E"/>
+                                        <constraint firstAttribute="height" constant="120" id="oMF-r0-rfG"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pFQ-T6-OGT">
+                                    <rect key="frame" x="67" y="370" width="240" height="120"/>
+                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="240" id="iOC-I4-Dcx"/>
+                                        <constraint firstAttribute="height" constant="120" id="oLL-Zq-TJi"/>
+                                    </constraints>
+                                </view>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="84U-t1-dZS">
+                                    <rect key="frame" x="105" y="165" width="165" height="25"/>
+                                    <state key="normal" title="Featured">
+                                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MNY-SV-TRR">
+                                    <rect key="frame" x="105" y="326" width="165" height="30"/>
+                                    <state key="normal" title="New Drills">
+                                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZOv-kz-my5">
+                                    <rect key="frame" x="105" y="507" width="165" height="25"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="165" id="FRb-aM-pSU"/>
+                                        <constraint firstAttribute="height" constant="25" id="P7x-rm-eGt"/>
+                                    </constraints>
+                                    <state key="normal" title="TimeLine">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Orx-cK-EeJ">
+                                    <rect key="frame" x="8" y="0.0" width="109" height="29"/>
+                                    <state key="normal" title="Sport">
+                                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HBV-Ri-nOQ">
+                                    <rect key="frame" x="133" y="0.0" width="109" height="29"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="29" id="INW-oy-Zcb"/>
+                                        <constraint firstAttribute="width" constant="109" id="PPG-GO-yB1"/>
+                                    </constraints>
+                                    <state key="normal" title="Drills">
+                                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xn1-Kq-xrk">
+                                    <rect key="frame" x="250" y="0.0" width="109" height="29"/>
+                                    <state key="normal" title="Category">
+                                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    </state>
+                                </button>
+                            </subviews>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="xn1-Kq-xrk" firstAttribute="firstBaseline" secondItem="HBV-Ri-nOQ" secondAttribute="baseline" id="08P-mK-ckg"/>
+                                <constraint firstItem="MNY-SV-TRR" firstAttribute="leading" secondItem="ZOv-kz-my5" secondAttribute="leading" id="0E7-GZ-MAR"/>
+                                <constraint firstItem="HBV-Ri-nOQ" firstAttribute="top" secondItem="FdL-sr-E4w" secondAttribute="top" id="3Gl-F2-GEx"/>
+                                <constraint firstAttribute="trailing" secondItem="xn1-Kq-xrk" secondAttribute="trailing" constant="16" id="6n7-44-kGf"/>
+                                <constraint firstItem="MNY-SV-TRR" firstAttribute="trailing" secondItem="ZOv-kz-my5" secondAttribute="trailing" id="9KX-qr-eib"/>
+                                <constraint firstItem="scD-8G-qAP" firstAttribute="top" secondItem="84U-t1-dZS" secondAttribute="bottom" constant="8" symbolic="YES" id="BDV-xM-tbh"/>
+                                <constraint firstItem="scD-8G-qAP" firstAttribute="centerX" secondItem="FdL-sr-E4w" secondAttribute="centerX" id="BdD-gN-iEn"/>
+                                <constraint firstItem="Orx-cK-EeJ" firstAttribute="baseline" secondItem="HBV-Ri-nOQ" secondAttribute="baseline" id="CUG-g1-jUp"/>
+                                <constraint firstItem="MNY-SV-TRR" firstAttribute="top" secondItem="scD-8G-qAP" secondAttribute="bottom" constant="8" symbolic="YES" id="CvU-eh-brB"/>
+                                <constraint firstItem="zZh-bQ-ENA" firstAttribute="centerX" secondItem="FdL-sr-E4w" secondAttribute="centerX" id="GOG-yW-Nh0"/>
+                                <constraint firstItem="Orx-cK-EeJ" firstAttribute="top" secondItem="HBV-Ri-nOQ" secondAttribute="top" id="HHG-kz-y78"/>
+                                <constraint firstItem="MNY-SV-TRR" firstAttribute="trailing" secondItem="84U-t1-dZS" secondAttribute="trailing" id="HQ5-qm-0D8"/>
+                                <constraint firstItem="xn1-Kq-xrk" firstAttribute="leading" secondItem="HBV-Ri-nOQ" secondAttribute="trailing" constant="8" symbolic="YES" id="HUv-5V-bVz"/>
+                                <constraint firstItem="xn1-Kq-xrk" firstAttribute="baseline" secondItem="HBV-Ri-nOQ" secondAttribute="firstBaseline" id="J8r-11-Ku5"/>
+                                <constraint firstItem="xn1-Kq-xrk" firstAttribute="top" secondItem="HBV-Ri-nOQ" secondAttribute="top" id="KJL-sQ-0gw"/>
+                                <constraint firstItem="scD-8G-qAP" firstAttribute="centerX" secondItem="HBV-Ri-nOQ" secondAttribute="centerX" id="OuC-Qj-C9K"/>
+                                <constraint firstItem="pFQ-T6-OGT" firstAttribute="centerX" secondItem="FdL-sr-E4w" secondAttribute="centerX" id="R8i-6m-hf8"/>
+                                <constraint firstItem="ZOv-kz-my5" firstAttribute="top" secondItem="pFQ-T6-OGT" secondAttribute="bottom" constant="17" id="Sqw-VP-99c"/>
+                                <constraint firstItem="xn1-Kq-xrk" firstAttribute="baseline" secondItem="HBV-Ri-nOQ" secondAttribute="baseline" id="VB4-N5-bUt"/>
+                                <constraint firstItem="MNY-SV-TRR" firstAttribute="leading" secondItem="84U-t1-dZS" secondAttribute="leading" id="VjC-c0-I8n"/>
+                                <constraint firstItem="84U-t1-dZS" firstAttribute="top" secondItem="zZh-bQ-ENA" secondAttribute="bottom" constant="8" symbolic="YES" id="X82-A1-iRJ"/>
+                                <constraint firstItem="Orx-cK-EeJ" firstAttribute="leading" secondItem="FdL-sr-E4w" secondAttribute="leadingMargin" id="XIx-kO-2eu"/>
+                                <constraint firstItem="HBV-Ri-nOQ" firstAttribute="leading" secondItem="Orx-cK-EeJ" secondAttribute="trailing" constant="16" id="Xxn-wQ-AKQ"/>
+                                <constraint firstItem="scD-8G-qAP" firstAttribute="centerX" secondItem="ZOv-kz-my5" secondAttribute="centerX" id="Y6T-lc-e8C"/>
+                                <constraint firstItem="Orx-cK-EeJ" firstAttribute="firstBaseline" secondItem="HBV-Ri-nOQ" secondAttribute="baseline" id="YIm-nn-JUH"/>
+                                <constraint firstItem="zZh-bQ-ENA" firstAttribute="top" secondItem="HBV-Ri-nOQ" secondAttribute="bottom" constant="8" symbolic="YES" id="e8R-Hq-7Wy"/>
+                                <constraint firstItem="pFQ-T6-OGT" firstAttribute="top" secondItem="MNY-SV-TRR" secondAttribute="bottom" constant="14" id="f1M-GM-Azs"/>
+                                <constraint firstItem="scD-8G-qAP" firstAttribute="top" secondItem="FdL-sr-E4w" secondAttribute="top" constant="198" id="mUN-Mf-rdp"/>
+                            </constraints>
                         </view>
                         <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ok8-KX-I2l">
                             <rect key="frame" x="0.0" y="598" width="375" height="50"/>
@@ -102,6 +205,12 @@
                         </stackView>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="ok8-KX-I2l" firstAttribute="leading" secondItem="AbA-IH-KmR" secondAttribute="leading" id="CbZ-dr-00y"/>
+                        <constraint firstItem="ok8-KX-I2l" firstAttribute="top" secondItem="FdL-sr-E4w" secondAttribute="bottom" id="svG-RD-LB8"/>
+                        <constraint firstAttribute="bottom" secondItem="ok8-KX-I2l" secondAttribute="bottom" id="vJa-nf-qim"/>
+                        <constraint firstAttribute="trailing" secondItem="ok8-KX-I2l" secondAttribute="trailing" id="yOj-aj-YAg"/>
+                    </constraints>
                 </stackView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
