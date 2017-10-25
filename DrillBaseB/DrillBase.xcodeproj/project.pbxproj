@@ -52,6 +52,8 @@
 		DC4848C71F9D179700E6BCE5 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4848C61F9D179600E6BCE5 /* Utility.swift */; };
 		DC4848C91F9EEA4600E6BCE5 /* ButtonLayerTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4848C81F9EEA4600E6BCE5 /* ButtonLayerTriangle.swift */; };
 		DC4848CB1F9EED2C00E6BCE5 /* UIButtonCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4848CA1F9EED2C00E6BCE5 /* UIButtonCustom.swift */; };
+		DC4848CF1FA0417000E6BCE5 /* FeaturedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4848CD1FA0417000E6BCE5 /* FeaturedView.swift */; };
+		DC4848D01FA0417000E6BCE5 /* FeaturedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC4848CE1FA0417000E6BCE5 /* FeaturedView.xib */; };
 		DC59A5DA1F538E67007CF44A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC59A5D91F538E67007CF44A /* AppDelegate.swift */; };
 		DC59A5DC1F538E67007CF44A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC59A5DB1F538E67007CF44A /* ViewController.swift */; };
 		DC59A5DF1F538E67007CF44A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC59A5DD1F538E67007CF44A /* Main.storyboard */; };
@@ -171,6 +173,8 @@
 		DC4848C61F9D179600E6BCE5 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		DC4848C81F9EEA4600E6BCE5 /* ButtonLayerTriangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonLayerTriangle.swift; sourceTree = "<group>"; };
 		DC4848CA1F9EED2C00E6BCE5 /* UIButtonCustom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonCustom.swift; sourceTree = "<group>"; };
+		DC4848CD1FA0417000E6BCE5 /* FeaturedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeaturedView.swift; sourceTree = "<group>"; };
+		DC4848CE1FA0417000E6BCE5 /* FeaturedView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeaturedView.xib; sourceTree = "<group>"; };
 		DC59A5D61F538E67007CF44A /* DrillBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrillBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC59A5D91F538E67007CF44A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC59A5DB1F538E67007CF44A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -321,6 +325,15 @@
 			path = Utility;
 			sourceTree = "<group>";
 		};
+		DC4848CC1FA03F7B00E6BCE5 /* Featured */ = {
+			isa = PBXGroup;
+			children = (
+				DC4848CD1FA0417000E6BCE5 /* FeaturedView.swift */,
+				DC4848CE1FA0417000E6BCE5 /* FeaturedView.xib */,
+			);
+			path = Featured;
+			sourceTree = "<group>";
+		};
 		DC59A5CD1F538E67007CF44A = {
 			isa = PBXGroup;
 			children = (
@@ -390,6 +403,7 @@
 		DC59A6091F5540C6007CF44A /* SportsDrillsCategory */ = {
 			isa = PBXGroup;
 			children = (
+				DC4848CC1FA03F7B00E6BCE5 /* Featured */,
 				DC6F02361F81C14400869B76 /* Video */,
 				DC6F02281F81B13400869B76 /* HomePage */,
 				DC6F02231F81AF1F00869B76 /* Timeline */,
@@ -568,6 +582,7 @@
 			files = (
 				DC48489D1F9BD3FE00E6BCE5 /* AddToFolder1.png in Resources */,
 				DC4848A21F9BD3FF00E6BCE5 /* AddToFolder6.png in Resources */,
+				DC4848D01FA0417000E6BCE5 /* FeaturedView.xib in Resources */,
 				DC4848B01F9BD3FF00E6BCE5 /* HomePageicon5.jpeg in Resources */,
 				DC4848BA1F9BD3FF00E6BCE5 /* searchIcon2.png in Resources */,
 				DC6F023C1F81ECBF00869B76 /* Catching-Framing.mov in Resources */,
@@ -641,6 +656,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC4848C71F9D179700E6BCE5 /* Utility.swift in Sources */,
+				DC4848CF1FA0417000E6BCE5 /* FeaturedView.swift in Sources */,
 				DC59A5DC1F538E67007CF44A /* ViewController.swift in Sources */,
 				DC6F022F1F81C0D400869B76 /* Video.swift in Sources */,
 				DC6F022B1F81B14A00869B76 /* HomePage.swift in Sources */,

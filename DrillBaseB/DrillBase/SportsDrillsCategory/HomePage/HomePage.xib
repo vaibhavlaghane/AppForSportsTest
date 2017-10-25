@@ -125,6 +125,9 @@
                                     <state key="normal" title="Featured">
                                         <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     </state>
+                                    <connections>
+                                        <action selector="featuredButtonClicked:" destination="-1" eventType="touchUpInside" id="Eb1-xc-k1B"/>
+                                    </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MNY-SV-TRR" customClass="UIButtonCustom" customModule="DrillBase" customModuleProvider="target">
                                     <rect key="frame" x="105" y="326" width="165" height="30"/>

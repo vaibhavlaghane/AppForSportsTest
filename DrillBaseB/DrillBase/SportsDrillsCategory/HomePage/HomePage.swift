@@ -38,6 +38,14 @@ class HomePage: UIViewController {
     }
 
     
+    @IBAction func featuredButtonClicked(_ sender: Any) {
+        
+        //let fNib = UINib(nibName: "FeaturedView", bundle: nil )
+        let featureView = FeaturedView(nibName: "FeaturedView", bundle: nil )
+        self.present(featureView, animated: false, completion: nil )
+        
+        
+    }
     func loadVideo(){
  
         let playVideo = Video()
