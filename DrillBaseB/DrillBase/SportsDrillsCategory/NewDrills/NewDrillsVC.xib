@@ -58,7 +58,7 @@
                             <rect key="frame" x="0.0" y="44" width="375" height="554"/>
                             <subviews>
                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="MyB-zG-Wq2">
-                                    <rect key="frame" x="8" y="9.5" width="358" height="491.5"/>
+                                    <rect key="frame" x="8" y="10" width="358" height="492"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="96R-6K-Ppd">
                                             <rect key="frame" x="0.0" y="0.0" width="358" height="95"/>
@@ -341,8 +341,8 @@
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <constraints>
                                 <constraint firstItem="ewj-cv-Hzl" firstAttribute="top" secondItem="MyB-zG-Wq2" secondAttribute="bottom" constant="3" id="JBg-NY-YpO"/>
-                                <constraint firstAttribute="bottom" secondItem="ewj-cv-Hzl" secondAttribute="bottom" id="Mmr-jP-1aE"/>
                                 <constraint firstItem="ewj-cv-Hzl" firstAttribute="centerX" secondItem="dde-ci-CCo" secondAttribute="centerX" id="W0f-eh-LIQ"/>
+                                <constraint firstItem="MyB-zG-Wq2" firstAttribute="top" secondItem="dde-ci-CCo" secondAttribute="top" constant="10" id="rND-Kc-Nnk"/>
                                 <constraint firstItem="MyB-zG-Wq2" firstAttribute="centerX" secondItem="ewj-cv-Hzl" secondAttribute="centerX" id="vJl-de-7pf"/>
                             </constraints>
                         </view>
