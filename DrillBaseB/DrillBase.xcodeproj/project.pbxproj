@@ -67,6 +67,8 @@
 		DC59A60F1F55415D007CF44A /* AccountDetailsBaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC59A60B1F55415D007CF44A /* AccountDetailsBaseViewController.xib */; };
 		DC59A6101F55415D007CF44A /* AccountDetailsBaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC59A60B1F55415D007CF44A /* AccountDetailsBaseViewController.xib */; };
 		DC59A6111F55415D007CF44A /* AccountDetailsBaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC59A60B1F55415D007CF44A /* AccountDetailsBaseViewController.xib */; };
+		DC696AEB1FA181FC00F6BAEB /* NewDrillsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC696AE91FA181FC00F6BAEB /* NewDrillsVC.swift */; };
+		DC696AEC1FA181FC00F6BAEB /* NewDrillsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC696AEA1FA181FC00F6BAEB /* NewDrillsVC.xib */; };
 		DC6CD4C51F65BDEC001B77CE /* SportsDrillCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6CD4C31F65BDEC001B77CE /* SportsDrillCategoryViewController.swift */; };
 		DC6CD4C61F65BDEC001B77CE /* SportsDrillCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6CD4C31F65BDEC001B77CE /* SportsDrillCategoryViewController.swift */; };
 		DC6CD4C71F65BDEC001B77CE /* SportsDrillCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6CD4C31F65BDEC001B77CE /* SportsDrillCategoryViewController.swift */; };
@@ -190,6 +192,8 @@
 		DC59A5FB1F538E68007CF44A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC59A60A1F55415D007CF44A /* AccountDetailsBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountDetailsBaseViewController.swift; sourceTree = "<group>"; };
 		DC59A60B1F55415D007CF44A /* AccountDetailsBaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccountDetailsBaseViewController.xib; sourceTree = "<group>"; };
+		DC696AE91FA181FC00F6BAEB /* NewDrillsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewDrillsVC.swift; sourceTree = "<group>"; };
+		DC696AEA1FA181FC00F6BAEB /* NewDrillsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewDrillsVC.xib; sourceTree = "<group>"; };
 		DC6CD4C31F65BDEC001B77CE /* SportsDrillCategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SportsDrillCategoryViewController.swift; sourceTree = "<group>"; };
 		DC6CD4CB1F65DB5A001B77CE /* BaseTabBarControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBarControllerViewController.swift; sourceTree = "<group>"; };
 		DC6CD4DB1F65FF3E001B77CE /* SDCTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDCTableViewCell.swift; sourceTree = "<group>"; };
@@ -403,6 +407,7 @@
 		DC59A6091F5540C6007CF44A /* SportsDrillsCategory */ = {
 			isa = PBXGroup;
 			children = (
+				DC696AE81FA181DE00F6BAEB /* NewDrills */,
 				DC4848CC1FA03F7B00E6BCE5 /* Featured */,
 				DC6F02361F81C14400869B76 /* Video */,
 				DC6F02281F81B13400869B76 /* HomePage */,
@@ -413,6 +418,15 @@
 				DC6CD4DC1F65FF3E001B77CE /* SDCTableViewCell.xib */,
 			);
 			path = SportsDrillsCategory;
+			sourceTree = "<group>";
+		};
+		DC696AE81FA181DE00F6BAEB /* NewDrills */ = {
+			isa = PBXGroup;
+			children = (
+				DC696AE91FA181FC00F6BAEB /* NewDrillsVC.swift */,
+				DC696AEA1FA181FC00F6BAEB /* NewDrillsVC.xib */,
+			);
+			path = NewDrills;
 			sourceTree = "<group>";
 		};
 		DC6CD4E41F6607B4001B77CE /* Model */ = {
@@ -593,6 +607,7 @@
 				DC6F023E1F81ECBF00869B76 /* Catching-Transfers.mov in Resources */,
 				DC59A5E41F538E67007CF44A /* LaunchScreen.storyboard in Resources */,
 				DC4848B21F9BD3FF00E6BCE5 /* HomePageicon7.png in Resources */,
+				DC696AEC1FA181FC00F6BAEB /* NewDrillsVC.xib in Resources */,
 				DC4848A11F9BD3FF00E6BCE5 /* AddToFolder5.jpeg in Resources */,
 				DC4848BD1F9BD3FF00E6BCE5 /* searchIcon5.jpeg in Resources */,
 				DC4848C01F9BD3FF00E6BCE5 /* searchIcon8.png in Resources */,
@@ -666,6 +681,7 @@
 				DC4848C91F9EEA4600E6BCE5 /* ButtonLayerTriangle.swift in Sources */,
 				DC6CD4C51F65BDEC001B77CE /* SportsDrillCategoryViewController.swift in Sources */,
 				DC59A60C1F55415D007CF44A /* AccountDetailsBaseViewController.swift in Sources */,
+				DC696AEB1FA181FC00F6BAEB /* NewDrillsVC.swift in Sources */,
 				DC6CD4E61F6607D8001B77CE /* SportsModel.swift in Sources */,
 				DC6CD4DD1F65FF3E001B77CE /* SDCTableViewCell.swift in Sources */,
 				DCCE35ED1F95B0B100C4CC30 /* ContentViewHolder.swift in Sources */,

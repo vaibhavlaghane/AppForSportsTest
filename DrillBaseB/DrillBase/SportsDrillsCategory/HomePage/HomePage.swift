@@ -46,6 +46,15 @@ class HomePage: UIViewController {
         
         
     }
+    
+    
+    @IBAction func newDrillsClicked(_ sender: Any) {
+  
+        let newDrillsView = NewDrillsVC(nibName: "NewDrillsVC", bundle: nil )
+        self.present(newDrillsView, animated: false, completion: nil )
+    }
+    
+    
     func loadVideo(){
  
         let playVideo = Video()

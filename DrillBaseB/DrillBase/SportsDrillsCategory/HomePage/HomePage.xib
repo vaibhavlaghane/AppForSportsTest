@@ -134,6 +134,9 @@
                                     <state key="normal" title="New Drills">
                                         <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     </state>
+                                    <connections>
+                                        <action selector="newDrillsClicked:" destination="-1" eventType="touchUpInside" id="Auz-1O-1d6"/>
+                                    </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZOv-kz-my5" customClass="UIButtonCustom" customModule="DrillBase" customModuleProvider="target">
                                     <rect key="frame" x="105" y="507" width="165" height="25"/>
