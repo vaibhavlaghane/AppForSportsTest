@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TimeLineViewViewController: UIViewController {
+class TimeLineVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

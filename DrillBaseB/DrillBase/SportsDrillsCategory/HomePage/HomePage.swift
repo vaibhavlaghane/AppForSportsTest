@@ -31,12 +31,17 @@ class HomePage: UIViewController {
 //        self.view.addSubview(rect3)
  
         let image = UIImage.triangle(side: 200, color: UIColor.green)
-        let imageView = UIImageView(image: image)
+        _ = UIImageView(image: image)
         
            // self.view.addSubview(imageView)
         
     }
 
+    @IBAction func timeLineButtonClicked(_ sender: Any) {
+        let timeLineView = TimeLineVC(nibName: "TimeLineVC", bundle: nil )
+        self.present(timeLineView, animated: false, completion: nil )
+        
+    }
     
     @IBAction func featuredButtonClicked(_ sender: Any) {
         

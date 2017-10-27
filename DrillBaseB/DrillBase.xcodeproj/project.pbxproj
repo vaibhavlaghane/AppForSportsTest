@@ -84,8 +84,8 @@
 		DC6CD4E61F6607D8001B77CE /* SportsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6CD4E51F6607D8001B77CE /* SportsModel.swift */; };
 		DC6CD4E71F6607D8001B77CE /* SportsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6CD4E51F6607D8001B77CE /* SportsModel.swift */; };
 		DC6CD4E81F6607D8001B77CE /* SportsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6CD4E51F6607D8001B77CE /* SportsModel.swift */; };
-		DC6F02261F81AF4E00869B76 /* TimeLineViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6F02241F81AF4D00869B76 /* TimeLineViewViewController.swift */; };
-		DC6F02271F81AF4E00869B76 /* TimeLineViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC6F02251F81AF4D00869B76 /* TimeLineViewViewController.xib */; };
+		DC6F02261F81AF4E00869B76 /* TimeLineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6F02241F81AF4D00869B76 /* TimeLineVC.swift */; };
+		DC6F02271F81AF4E00869B76 /* TimeLineVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC6F02251F81AF4D00869B76 /* TimeLineVC.xib */; };
 		DC6F022B1F81B14A00869B76 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6F02291F81B14A00869B76 /* HomePage.swift */; };
 		DC6F022C1F81B14A00869B76 /* HomePage.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC6F022A1F81B14A00869B76 /* HomePage.xib */; };
 		DC6F022F1F81C0D400869B76 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6F022E1F81C0D400869B76 /* Video.swift */; };
@@ -199,8 +199,8 @@
 		DC6CD4DB1F65FF3E001B77CE /* SDCTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDCTableViewCell.swift; sourceTree = "<group>"; };
 		DC6CD4DC1F65FF3E001B77CE /* SDCTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SDCTableViewCell.xib; sourceTree = "<group>"; };
 		DC6CD4E51F6607D8001B77CE /* SportsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SportsModel.swift; sourceTree = "<group>"; };
-		DC6F02241F81AF4D00869B76 /* TimeLineViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeLineViewViewController.swift; sourceTree = "<group>"; };
-		DC6F02251F81AF4D00869B76 /* TimeLineViewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimeLineViewViewController.xib; sourceTree = "<group>"; };
+		DC6F02241F81AF4D00869B76 /* TimeLineVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeLineVC.swift; sourceTree = "<group>"; };
+		DC6F02251F81AF4D00869B76 /* TimeLineVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimeLineVC.xib; sourceTree = "<group>"; };
 		DC6F02291F81B14A00869B76 /* HomePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		DC6F022A1F81B14A00869B76 /* HomePage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomePage.xib; sourceTree = "<group>"; };
 		DC6F022E1F81C0D400869B76 /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Video.swift; path = ../../Resources/Video.swift; sourceTree = "<group>"; };
@@ -442,8 +442,8 @@
 		DC6F02231F81AF1F00869B76 /* Timeline */ = {
 			isa = PBXGroup;
 			children = (
-				DC6F02241F81AF4D00869B76 /* TimeLineViewViewController.swift */,
-				DC6F02251F81AF4D00869B76 /* TimeLineViewViewController.xib */,
+				DC6F02241F81AF4D00869B76 /* TimeLineVC.swift */,
+				DC6F02251F81AF4D00869B76 /* TimeLineVC.xib */,
 			);
 			path = Timeline;
 			sourceTree = "<group>";
@@ -601,7 +601,7 @@
 				DC4848BA1F9BD3FF00E6BCE5 /* searchIcon2.png in Resources */,
 				DC6F023C1F81ECBF00869B76 /* Catching-Framing.mov in Resources */,
 				DC4848A81F9BD3FF00E6BCE5 /* hamburgermenu5.png in Resources */,
-				DC6F02271F81AF4E00869B76 /* TimeLineViewViewController.xib in Resources */,
+				DC6F02271F81AF4E00869B76 /* TimeLineVC.xib in Resources */,
 				DC4848A91F9BD3FF00E6BCE5 /* hamburgermenu6.png in Resources */,
 				DC4848BE1F9BD3FF00E6BCE5 /* searchIcon6.jpeg in Resources */,
 				DC6F023E1F81ECBF00869B76 /* Catching-Transfers.mov in Resources */,
@@ -677,7 +677,7 @@
 				DC6F022B1F81B14A00869B76 /* HomePage.swift in Sources */,
 				DC4848CB1F9EED2C00E6BCE5 /* UIButtonCustom.swift in Sources */,
 				DC6CD4CC1F65DB5A001B77CE /* BaseTabBarControllerViewController.swift in Sources */,
-				DC6F02261F81AF4E00869B76 /* TimeLineViewViewController.swift in Sources */,
+				DC6F02261F81AF4E00869B76 /* TimeLineVC.swift in Sources */,
 				DC4848C91F9EEA4600E6BCE5 /* ButtonLayerTriangle.swift in Sources */,
 				DC6CD4C51F65BDEC001B77CE /* SportsDrillCategoryViewController.swift in Sources */,
 				DC59A60C1F55415D007CF44A /* AccountDetailsBaseViewController.swift in Sources */,

@@ -147,6 +147,9 @@
                                     <state key="normal" title="TimeLine">
                                         <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </state>
+                                    <connections>
+                                        <action selector="timeLineButtonClicked:" destination="-1" eventType="touchUpInside" id="czJ-iF-4TP"/>
+                                    </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Orx-cK-EeJ" customClass="UIButtonCustom" customModule="DrillBase" customModuleProvider="target">
                                     <rect key="frame" x="8" y="0.0" width="109" height="29"/>
