@@ -90,45 +90,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DrillBaseB/DrillBase/SportsDrillsCategory/HomePage/HomePage.swift"
-            timestampString = "530756662.481767"
+            timestampString = "532217937.613425"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "66"
             endingLineNumber = "66"
             landmarkName = "loadVideo()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "DrillBase.HomePage.loadVideo () -&gt; ()"
-                  moduleName = "DrillBase"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/vaibhavlaghane/Documents/PROJECTS_/DrillBase/DrillBaseB/DrillBase/SportsDrillsCategory/HomePage/HomePage.swift"
-                  timestampString = "530680529.977568"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "62"
-                  endingLineNumber = "62"
-                  offsetFromSymbolStart = "39">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "DrillBase.HomePage.loadVideo () -&gt; ()"
-                  moduleName = "DrillBase"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/vaibhavlaghane/Documents/PROJECTS_/DrillBase/DrillBaseB/DrillBase/SportsDrillsCategory/HomePage/HomePage.swift"
-                  timestampString = "530680529.98196"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "62"
-                  endingLineNumber = "62"
-                  offsetFromSymbolStart = "79">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -138,60 +106,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DrillBaseB/DrillBase/SportsDrillsCategory/HomePage/HomePage.swift"
-            timestampString = "530756662.481767"
+            timestampString = "532217937.620321"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "67"
             endingLineNumber = "67"
             landmarkName = "loadVideo()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "DrillBase.HomePage.loadVideo () -&gt; ()"
-                  moduleName = "DrillBase"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/vaibhavlaghane/Documents/PROJECTS_/DrillBase/DrillBaseB/DrillBase/SportsDrillsCategory/HomePage/HomePage.swift"
-                  timestampString = "530680529.997876"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "62"
-                  endingLineNumber = "62"
-                  offsetFromSymbolStart = "39">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "DrillBase.HomePage.loadVideo () -&gt; ()"
-                  moduleName = "DrillBase"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/vaibhavlaghane/Documents/PROJECTS_/DrillBase/DrillBaseB/DrillBase/SportsDrillsCategory/HomePage/HomePage.swift"
-                  timestampString = "530680530.002443"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "62"
-                  endingLineNumber = "62"
-                  offsetFromSymbolStart = "79">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "DrillBaseB/DrillBase/ViewController.swift"
-            timestampString = "529691452.692497"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "56"
-            endingLineNumber = "56"
-            landmarkName = "loginButtonClicked(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -234,12 +154,76 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DrillBaseB/DrillBase/SportsDrillsCategory/HomePage/HomePage.swift"
-            timestampString = "530756662.481767"
+            timestampString = "532217937.621136"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "59"
             endingLineNumber = "59"
             landmarkName = "newDrillsClicked(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DrillBaseB/DrillBase/ViewController.swift"
+            timestampString = "532218626.963808"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DrillBaseB/DrillBase/ViewController.swift"
+            timestampString = "532218626.964317"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "didReceiveMemoryWarning()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DrillBaseB/DrillBase/SportsDrillsCategory/HomePage/HomePageContainerViewController.swift"
+            timestampString = "532218626.964769"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "homeButtonClicked(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DrillBaseB/DrillBase/SportsDrillsCategory/HomePage/HomePageContainerViewController.swift"
+            timestampString = "532218626.965181"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "prepare(for:sender:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

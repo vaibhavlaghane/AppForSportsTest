@@ -47,16 +47,26 @@ class ViewController: UIViewController {
     
     @IBAction func loginButtonClicked(_ sender: Any) {
         
-        print("login button clicked ")
-//        let baseTabBarController = storyboard?.instantiateViewController(withIdentifier: "BaseTabBarController") as! BaseTabBarController
-//        self.present(baseTabBarController, animated:true , completion: nil)
-        
-        print("login button clicked ")
-        let homePage = HomePage(nibName: "HomePage", bundle: nil )
-        self.present(homePage, animated:true , completion: nil)
+//        print("login button clicked ")
+////        let baseTabBarController = storyboard?.instantiateViewController(withIdentifier: "BaseTabBarController") as! BaseTabBarController
+////        self.present(baseTabBarController, animated:true , completion: nil)
+//        
+//        print("login button clicked ")
+//        let homePage = HomePage(nibName: "HomePage", bundle: nil )
+//        self.present(homePage, animated:true , completion: nil)
 
     }
     
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destinationViewController.
+        // Pass the selected object to the new view controller.
+        
+//        if segue.identifier == "showHomePage" {
+//            //let dvc = segue.destination as! HomePage
+//           // dvc.delegate = self
+//        }
+    }
 
 }
 

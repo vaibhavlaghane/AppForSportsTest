@@ -1,13 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1611" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
         <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
-        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -119,6 +118,7 @@
                                         </state>
                                         <connections>
                                             <action selector="loginButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lu8-dd-yp0"/>
+                                            <segue destination="xDX-Uj-qY1" kind="show" identifier="showHomeContainer" id="gyP-Hk-qDp"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -144,6 +144,269 @@
             </objects>
             <point key="canvasLocation" x="141.59999999999999" y="136.28185907046478"/>
         </scene>
+        <!--Home Page Container View Controller-->
+        <scene sceneID="C5T-4R-2YM">
+            <objects>
+                <viewController id="xDX-Uj-qY1" customClass="HomePageContainerViewController" customModule="DrillBase" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CA4-Di-qRL"/>
+                        <viewControllerLayoutGuide type="bottom" id="D07-7M-gJs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Oda-09-ZnT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="myM-wt-2Oa">
+                                <rect key="frame" x="0.0" y="60" width="375" height="552"/>
+                                <color key="backgroundColor" red="1" green="0.082858907910000001" blue="0.28487266900000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <segue destination="2qg-Il-1FR" kind="embed" identifier="showHomePage" id="Ux4-K5-cLp"/>
+                                </connections>
+                            </containerView>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UkC-Vt-bNH">
+                                <rect key="frame" x="37" y="20" width="300" height="44"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t0R-bB-94o">
+                                        <rect key="frame" x="0.0" y="0.0" width="70" height="44"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="70" id="FMf-m2-bjz"/>
+                                            <constraint firstAttribute="width" constant="70" id="JKb-iy-a0J"/>
+                                            <constraint firstAttribute="height" constant="44" id="Qqd-vX-CuB"/>
+                                        </constraints>
+                                        <state key="normal" image="hamburgermenu5.png"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R6Y-l6-fJO">
+                                        <rect key="frame" x="70" y="0.0" width="160" height="44"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="160" id="fW6-SO-tVa"/>
+                                        </constraints>
+                                        <state key="normal" title="DrillBase">
+                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WeG-Wd-JG8">
+                                        <rect key="frame" x="230" y="0.0" width="70" height="44"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="70" id="7Jc-aa-i37"/>
+                                        </constraints>
+                                        <state key="normal" image="image_profile2.png"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9WU-zk-PRZ">
+                                <rect key="frame" x="19" y="608" width="340" height="59"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uo1-7L-mMW">
+                                        <rect key="frame" x="0.0" y="0.0" width="80" height="59"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="UKY-2c-iOK"/>
+                                        </constraints>
+                                        <state key="normal" image="HomePageicon7.png"/>
+                                        <connections>
+                                            <action selector="homeButtonClicked:" destination="xDX-Uj-qY1" eventType="touchUpInside" id="WXX-DL-ABZ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yap-No-CGw">
+                                        <rect key="frame" x="80" y="0.0" width="70" height="59"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="70" id="mxR-AX-zgJ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="39"/>
+                                        <state key="normal" title="I">
+                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xp5-0D-uHU">
+                                        <rect key="frame" x="150" y="0.0" width="50" height="59"/>
+                                        <state key="normal" image="home_button50.png"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N5i-On-fUN">
+                                        <rect key="frame" x="200" y="0.0" width="70" height="59"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="70" id="KNi-HS-XeK"/>
+                                        </constraints>
+                                        <state key="normal" image="searchIcon.png"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="An5-pd-8Yp">
+                                        <rect key="frame" x="270" y="0.0" width="70" height="59"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="70" id="JRz-Dn-bxa"/>
+                                        </constraints>
+                                        <state key="normal" image="AddToFolder3.png"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pb1-1y-oyQ">
+                                <rect key="frame" x="0.0" y="60" width="375" height="552"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P2B-Ka-Wgq">
+                                        <rect key="frame" x="67" y="37" width="240" height="120"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YNO-Er-ZEB">
+                                                <rect key="frame" x="0.0" y="0.0" width="36" height="29"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="36" id="Pd3-s5-lpV"/>
+                                                </constraints>
+                                                <state key="normal" image="hamburgermenu5.png"/>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="YNO-Er-ZEB" firstAttribute="top" secondItem="P2B-Ka-Wgq" secondAttribute="top" id="Qfs-rm-c8U"/>
+                                            <constraint firstItem="YNO-Er-ZEB" firstAttribute="leading" secondItem="P2B-Ka-Wgq" secondAttribute="leading" id="SkD-vY-vci"/>
+                                            <constraint firstAttribute="bottom" secondItem="YNO-Er-ZEB" secondAttribute="bottom" constant="91" id="lmG-Mv-S4F"/>
+                                            <constraint firstAttribute="height" constant="120" id="psL-9R-yUA"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ClD-gy-Q1w">
+                                        <rect key="frame" x="67" y="203" width="240" height="120"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="77g-ui-Kku">
+                                                <rect key="frame" x="0.0" y="0.0" width="36" height="29"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="36" id="088-FZ-5KV"/>
+                                                </constraints>
+                                                <state key="normal" image="hamburgermenu5.png"/>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="77g-ui-Kku" firstAttribute="leading" secondItem="ClD-gy-Q1w" secondAttribute="leading" id="K0I-Ie-Z7u"/>
+                                            <constraint firstAttribute="height" constant="120" id="bXH-qe-J5G"/>
+                                            <constraint firstAttribute="bottom" secondItem="77g-ui-Kku" secondAttribute="bottom" constant="91" id="c67-4H-HWs"/>
+                                            <constraint firstAttribute="width" constant="240" id="m55-M8-3N0"/>
+                                            <constraint firstItem="77g-ui-Kku" firstAttribute="top" secondItem="ClD-gy-Q1w" secondAttribute="top" id="sQ1-Hd-rFm"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iNj-Rz-EJs">
+                                        <rect key="frame" x="67" y="375" width="240" height="120"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gSK-E9-jW4">
+                                                <rect key="frame" x="0.0" y="0.0" width="36" height="29"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="36" id="mcp-gr-gx5"/>
+                                                </constraints>
+                                                <state key="normal" image="hamburgermenu5.png"/>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="120" id="Kst-9i-c33"/>
+                                            <constraint firstItem="gSK-E9-jW4" firstAttribute="leading" secondItem="iNj-Rz-EJs" secondAttribute="leading" id="MoJ-vy-FUi"/>
+                                            <constraint firstItem="gSK-E9-jW4" firstAttribute="top" secondItem="iNj-Rz-EJs" secondAttribute="top" id="cTJ-l7-YIe"/>
+                                            <constraint firstAttribute="bottom" secondItem="gSK-E9-jW4" secondAttribute="bottom" constant="91" id="iTM-22-3Tc"/>
+                                            <constraint firstAttribute="width" constant="240" id="nLf-TG-wax"/>
+                                        </constraints>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1jJ-XK-aKX" customClass="UIButtonCustom" customModule="DrillBase" customModuleProvider="target">
+                                        <rect key="frame" x="105" y="165" width="165" height="30"/>
+                                        <state key="normal" title="Featured">
+                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XMv-fL-1zV" customClass="UIButtonCustom" customModule="DrillBase" customModuleProvider="target">
+                                        <rect key="frame" x="105" y="331" width="165" height="30"/>
+                                        <state key="normal" title="New Drills">
+                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rc4-Qh-o7p" customClass="UIButtonCustom" customModule="DrillBase" customModuleProvider="target">
+                                        <rect key="frame" x="105" y="512" width="165" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="25" id="EAR-T7-B9G"/>
+                                            <constraint firstAttribute="width" constant="165" id="uEF-dL-SJ8"/>
+                                        </constraints>
+                                        <state key="normal" title="TimeLine">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ne6-zw-Odj" customClass="UIButtonCustom" customModule="DrillBase" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="0.0" width="109" height="29"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="109" id="bTI-wN-de1"/>
+                                        </constraints>
+                                        <state key="normal" title="Sport">
+                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5pB-hK-hNL" customClass="UIButtonCustom" customModule="DrillBase" customModuleProvider="target">
+                                        <rect key="frame" x="133" y="0.0" width="109" height="29"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="29" id="Th6-4o-Et8"/>
+                                            <constraint firstAttribute="width" constant="109" id="WEp-Ho-0dh"/>
+                                        </constraints>
+                                        <state key="normal" title="Drills">
+                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lay-Hi-HVz" customClass="UIButtonCustom" customModule="DrillBase" customModuleProvider="target">
+                                        <rect key="frame" x="250" y="0.0" width="63" height="29"/>
+                                        <state key="normal" title="Category">
+                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="lay-Hi-HVz" firstAttribute="firstBaseline" secondItem="5pB-hK-hNL" secondAttribute="baseline" id="1uA-gQ-gv9"/>
+                                    <constraint firstItem="P2B-Ka-Wgq" firstAttribute="centerX" secondItem="pb1-1y-oyQ" secondAttribute="centerX" id="1yZ-xC-Nfn"/>
+                                    <constraint firstItem="XMv-fL-1zV" firstAttribute="trailing" secondItem="Rc4-Qh-o7p" secondAttribute="trailing" id="3ew-xa-3oS"/>
+                                    <constraint firstItem="ClD-gy-Q1w" firstAttribute="centerX" secondItem="5pB-hK-hNL" secondAttribute="centerX" id="4R6-C7-fdd"/>
+                                    <constraint firstItem="ne6-zw-Odj" firstAttribute="firstBaseline" secondItem="5pB-hK-hNL" secondAttribute="baseline" id="4aI-Uz-lVE"/>
+                                    <constraint firstItem="1jJ-XK-aKX" firstAttribute="top" secondItem="P2B-Ka-Wgq" secondAttribute="bottom" constant="8" symbolic="YES" id="6G5-bn-yAb"/>
+                                    <constraint firstItem="lay-Hi-HVz" firstAttribute="baseline" secondItem="5pB-hK-hNL" secondAttribute="firstBaseline" id="6al-y6-lB3"/>
+                                    <constraint firstItem="ClD-gy-Q1w" firstAttribute="centerX" secondItem="pb1-1y-oyQ" secondAttribute="centerX" id="8lk-UU-to3"/>
+                                    <constraint firstItem="lay-Hi-HVz" firstAttribute="baseline" secondItem="5pB-hK-hNL" secondAttribute="baseline" id="DEZ-sQ-8S2"/>
+                                    <constraint firstItem="P2B-Ka-Wgq" firstAttribute="leading" secondItem="ClD-gy-Q1w" secondAttribute="leading" id="EUf-Vd-wBw"/>
+                                    <constraint firstItem="iNj-Rz-EJs" firstAttribute="top" secondItem="XMv-fL-1zV" secondAttribute="bottom" constant="14" id="Fii-2c-dk2"/>
+                                    <constraint firstItem="ne6-zw-Odj" firstAttribute="leading" secondItem="pb1-1y-oyQ" secondAttribute="leadingMargin" id="JQx-zC-nH7"/>
+                                    <constraint firstItem="ne6-zw-Odj" firstAttribute="top" secondItem="5pB-hK-hNL" secondAttribute="top" id="JZR-UX-e5T"/>
+                                    <constraint firstItem="ne6-zw-Odj" firstAttribute="top" secondItem="pb1-1y-oyQ" secondAttribute="top" id="MF3-vH-mdf"/>
+                                    <constraint firstItem="5pB-hK-hNL" firstAttribute="leading" secondItem="ne6-zw-Odj" secondAttribute="trailing" constant="16" id="MWL-6e-UNy"/>
+                                    <constraint firstItem="P2B-Ka-Wgq" firstAttribute="top" secondItem="ne6-zw-Odj" secondAttribute="bottom" constant="8" symbolic="YES" id="NMh-NO-4u0"/>
+                                    <constraint firstItem="ClD-gy-Q1w" firstAttribute="centerX" secondItem="Rc4-Qh-o7p" secondAttribute="centerX" id="Net-dO-ajG"/>
+                                    <constraint firstItem="XMv-fL-1zV" firstAttribute="trailing" secondItem="1jJ-XK-aKX" secondAttribute="trailing" id="OWC-e6-KSz"/>
+                                    <constraint firstItem="ClD-gy-Q1w" firstAttribute="top" secondItem="1jJ-XK-aKX" secondAttribute="bottom" constant="8" symbolic="YES" id="P0g-pZ-Dg8"/>
+                                    <constraint firstItem="ne6-zw-Odj" firstAttribute="baseline" secondItem="5pB-hK-hNL" secondAttribute="baseline" id="Rn1-VS-r3b"/>
+                                    <constraint firstItem="Rc4-Qh-o7p" firstAttribute="top" secondItem="iNj-Rz-EJs" secondAttribute="bottom" constant="17" id="V97-Ge-BR8"/>
+                                    <constraint firstItem="XMv-fL-1zV" firstAttribute="leading" secondItem="1jJ-XK-aKX" secondAttribute="leading" id="Y7S-5Q-BZZ"/>
+                                    <constraint firstItem="P2B-Ka-Wgq" firstAttribute="trailing" secondItem="ClD-gy-Q1w" secondAttribute="trailing" id="YSM-Il-QDd"/>
+                                    <constraint firstItem="XMv-fL-1zV" firstAttribute="top" secondItem="ClD-gy-Q1w" secondAttribute="bottom" constant="8" symbolic="YES" id="bzh-94-8OK"/>
+                                    <constraint firstItem="lay-Hi-HVz" firstAttribute="top" secondItem="5pB-hK-hNL" secondAttribute="top" id="d1a-2q-9Hs"/>
+                                    <constraint firstItem="iNj-Rz-EJs" firstAttribute="centerX" secondItem="pb1-1y-oyQ" secondAttribute="centerX" id="eBq-HR-r2l"/>
+                                    <constraint firstItem="XMv-fL-1zV" firstAttribute="leading" secondItem="Rc4-Qh-o7p" secondAttribute="leading" id="fRa-yQ-QWZ"/>
+                                    <constraint firstItem="lay-Hi-HVz" firstAttribute="leading" secondItem="5pB-hK-hNL" secondAttribute="trailing" constant="8" symbolic="YES" id="g9j-mV-gcc"/>
+                                    <constraint firstItem="P2B-Ka-Wgq" firstAttribute="leading" secondItem="iNj-Rz-EJs" secondAttribute="leading" id="qdz-9r-Wd2"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.48193046179999999" blue="0.29789135030000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="D07-7M-gJs" firstAttribute="top" secondItem="9WU-zk-PRZ" secondAttribute="bottom" id="0pE-Qk-FEz"/>
+                            <constraint firstItem="pb1-1y-oyQ" firstAttribute="leading" secondItem="myM-wt-2Oa" secondAttribute="leading" id="1jW-5M-Pn5"/>
+                            <constraint firstItem="myM-wt-2Oa" firstAttribute="top" secondItem="CA4-Di-qRL" secondAttribute="bottom" constant="40" id="7Vz-i5-joH"/>
+                            <constraint firstAttribute="trailing" secondItem="myM-wt-2Oa" secondAttribute="trailing" id="Lyw-dD-Gys"/>
+                            <constraint firstItem="pb1-1y-oyQ" firstAttribute="trailing" secondItem="myM-wt-2Oa" secondAttribute="trailing" id="S5j-ad-Ioe"/>
+                            <constraint firstItem="UkC-Vt-bNH" firstAttribute="top" secondItem="Oda-09-ZnT" secondAttribute="top" constant="20" id="T35-JX-c0A"/>
+                            <constraint firstItem="myM-wt-2Oa" firstAttribute="leading" secondItem="Oda-09-ZnT" secondAttribute="leading" id="bXN-LY-IXB"/>
+                            <constraint firstItem="pb1-1y-oyQ" firstAttribute="top" secondItem="myM-wt-2Oa" secondAttribute="top" id="ekJ-lW-eAb"/>
+                            <constraint firstItem="UkC-Vt-bNH" firstAttribute="leading" secondItem="Oda-09-ZnT" secondAttribute="leading" constant="37" id="frr-PV-FEa"/>
+                            <constraint firstItem="9WU-zk-PRZ" firstAttribute="trailing" secondItem="Oda-09-ZnT" secondAttribute="trailingMargin" id="j8P-5V-jl2"/>
+                            <constraint firstItem="9WU-zk-PRZ" firstAttribute="leading" secondItem="Oda-09-ZnT" secondAttribute="leadingMargin" constant="3" id="rKg-Am-cWT"/>
+                            <constraint firstItem="pb1-1y-oyQ" firstAttribute="bottom" secondItem="myM-wt-2Oa" secondAttribute="bottom" id="ueQ-XS-nmN"/>
+                            <constraint firstItem="D07-7M-gJs" firstAttribute="top" secondItem="myM-wt-2Oa" secondAttribute="bottom" constant="55" id="yZK-1f-192"/>
+                            <constraint firstAttribute="trailing" secondItem="UkC-Vt-bNH" secondAttribute="trailing" constant="38" id="zkb-fT-Ksk"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z3D-TM-eOr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="884" y="134.48275862068968"/>
+        </scene>
         <!--tab2-->
         <scene sceneID="L1n-Tw-SWc">
             <objects>
@@ -161,7 +424,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GdH-JB-FiA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="938" y="1330"/>
+            <point key="canvasLocation" x="142" y="1856"/>
         </scene>
         <!--tab1-->
         <scene sceneID="oMU-Dq-DfV">
@@ -294,7 +557,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OvE-fm-8QP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="938.39999999999998" y="669.71514242878561"/>
+            <point key="canvasLocation" x="886" y="1021"/>
         </scene>
         <!--Base Tab Bar Controller-->
         <scene sceneID="zLb-Me-med">
@@ -314,5 +577,175 @@
             </objects>
             <point key="canvasLocation" x="141" y="1022"/>
         </scene>
+        <!--Home Page-->
+        <scene sceneID="gw7-ZS-msP">
+            <objects>
+                <viewController id="2qg-Il-1FR" customClass="HomePage" customModule="DrillBase" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ktX-kS-Pd7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="552"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZoB-YH-6Sa">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="552"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jay-b0-CEu">
+                                        <rect key="frame" x="67" y="37" width="240" height="120"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oFk-cW-nmC">
+                                                <rect key="frame" x="0.0" y="0.0" width="36" height="29"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="36" id="0AR-ch-IcW"/>
+                                                </constraints>
+                                                <state key="normal" image="hamburgermenu5.png"/>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="oFk-cW-nmC" firstAttribute="top" secondItem="jay-b0-CEu" secondAttribute="top" id="3YB-Vt-20i"/>
+                                            <constraint firstItem="oFk-cW-nmC" firstAttribute="leading" secondItem="jay-b0-CEu" secondAttribute="leading" id="3b7-Yy-6y8"/>
+                                            <constraint firstAttribute="width" constant="240" id="EDR-sk-x8i"/>
+                                            <constraint firstAttribute="height" constant="120" id="ZcY-Lm-Qaa"/>
+                                            <constraint firstAttribute="bottom" secondItem="oFk-cW-nmC" secondAttribute="bottom" constant="91" id="bLB-aZ-9xX"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FlX-DN-VTS">
+                                        <rect key="frame" x="67" y="198" width="240" height="120"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NMU-1z-P6r">
+                                                <rect key="frame" x="0.0" y="0.0" width="36" height="29"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="36" id="fkE-vP-v7z"/>
+                                                </constraints>
+                                                <state key="normal" image="hamburgermenu5.png"/>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="120" id="65f-xj-8It"/>
+                                            <constraint firstAttribute="width" constant="240" id="G8L-IF-AYM"/>
+                                            <constraint firstItem="NMU-1z-P6r" firstAttribute="leading" secondItem="FlX-DN-VTS" secondAttribute="leading" id="lZZ-Hp-CXy"/>
+                                            <constraint firstAttribute="bottom" secondItem="NMU-1z-P6r" secondAttribute="bottom" constant="91" id="t0C-fA-Fzy"/>
+                                            <constraint firstItem="NMU-1z-P6r" firstAttribute="top" secondItem="FlX-DN-VTS" secondAttribute="top" id="tnz-84-fxY"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LWc-yZ-fQP">
+                                        <rect key="frame" x="67" y="370" width="240" height="120"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U6D-Li-8Aa">
+                                                <rect key="frame" x="0.0" y="0.0" width="36" height="29"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="36" id="rr0-X1-SPi"/>
+                                                </constraints>
+                                                <state key="normal" image="hamburgermenu5.png"/>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="120" id="2tU-E1-bQb"/>
+                                            <constraint firstAttribute="bottom" secondItem="U6D-Li-8Aa" secondAttribute="bottom" constant="91" id="BdV-KZ-wrH"/>
+                                            <constraint firstAttribute="width" constant="240" id="KA8-kN-1lz"/>
+                                            <constraint firstItem="U6D-Li-8Aa" firstAttribute="top" secondItem="LWc-yZ-fQP" secondAttribute="top" id="VGc-cp-Wcl"/>
+                                            <constraint firstItem="U6D-Li-8Aa" firstAttribute="leading" secondItem="LWc-yZ-fQP" secondAttribute="leading" id="twl-CZ-xqp"/>
+                                        </constraints>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aTD-mq-GzF" customClass="UIButtonCustom" customModule="DrillBase" customModuleProvider="target">
+                                        <rect key="frame" x="105" y="165" width="165" height="25"/>
+                                        <state key="normal" title="Featured">
+                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N2U-mt-vom" customClass="UIButtonCustom" customModule="DrillBase" customModuleProvider="target">
+                                        <rect key="frame" x="105" y="326" width="165" height="30"/>
+                                        <state key="normal" title="New Drills">
+                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OLp-1N-Vea" customClass="UIButtonCustom" customModule="DrillBase" customModuleProvider="target">
+                                        <rect key="frame" x="105" y="507" width="165" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="25" id="Fba-Vl-Xw0"/>
+                                            <constraint firstAttribute="width" constant="165" id="veq-zV-t2b"/>
+                                        </constraints>
+                                        <state key="normal" title="TimeLine">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7df-kl-m4P" customClass="UIButtonCustom" customModule="DrillBase" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="0.0" width="109" height="29"/>
+                                        <state key="normal" title="Sport">
+                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OS5-0o-VVr" customClass="UIButtonCustom" customModule="DrillBase" customModuleProvider="target">
+                                        <rect key="frame" x="133" y="0.0" width="109" height="29"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="109" id="EzO-mn-zq7"/>
+                                            <constraint firstAttribute="height" constant="29" id="n8D-41-TN0"/>
+                                        </constraints>
+                                        <state key="normal" title="Drills">
+                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2SU-b3-cKY" customClass="UIButtonCustom" customModule="DrillBase" customModuleProvider="target">
+                                        <rect key="frame" x="250" y="0.0" width="109" height="29"/>
+                                        <state key="normal" title="Category">
+                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.082858907910000001" blue="0.28487266900000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="FlX-DN-VTS" firstAttribute="centerX" secondItem="OLp-1N-Vea" secondAttribute="centerX" id="2Wg-IW-1o4"/>
+                                    <constraint firstItem="N2U-mt-vom" firstAttribute="top" secondItem="FlX-DN-VTS" secondAttribute="bottom" constant="8" symbolic="YES" id="2gc-Dh-1XS"/>
+                                    <constraint firstItem="FlX-DN-VTS" firstAttribute="top" secondItem="aTD-mq-GzF" secondAttribute="bottom" constant="8" symbolic="YES" id="6eT-Wc-y8a"/>
+                                    <constraint firstItem="N2U-mt-vom" firstAttribute="trailing" secondItem="aTD-mq-GzF" secondAttribute="trailing" id="ASN-ka-ozW"/>
+                                    <constraint firstAttribute="trailing" secondItem="2SU-b3-cKY" secondAttribute="trailing" constant="16" id="BNk-Xf-WqC"/>
+                                    <constraint firstItem="jay-b0-CEu" firstAttribute="centerX" secondItem="ZoB-YH-6Sa" secondAttribute="centerX" id="BhI-XC-TFW"/>
+                                    <constraint firstItem="2SU-b3-cKY" firstAttribute="leading" secondItem="OS5-0o-VVr" secondAttribute="trailing" constant="8" symbolic="YES" id="GgV-Py-paC"/>
+                                    <constraint firstItem="FlX-DN-VTS" firstAttribute="centerX" secondItem="OS5-0o-VVr" secondAttribute="centerX" id="HmT-UZ-anr"/>
+                                    <constraint firstItem="2SU-b3-cKY" firstAttribute="baseline" secondItem="OS5-0o-VVr" secondAttribute="baseline" id="MNX-rJ-iRO"/>
+                                    <constraint firstItem="FlX-DN-VTS" firstAttribute="centerX" secondItem="ZoB-YH-6Sa" secondAttribute="centerX" id="OQc-cB-vB7"/>
+                                    <constraint firstItem="LWc-yZ-fQP" firstAttribute="top" secondItem="N2U-mt-vom" secondAttribute="bottom" constant="14" id="Qha-OP-38e"/>
+                                    <constraint firstItem="2SU-b3-cKY" firstAttribute="top" secondItem="OS5-0o-VVr" secondAttribute="top" id="Rg9-pB-i2i"/>
+                                    <constraint firstItem="7df-kl-m4P" firstAttribute="leading" secondItem="ZoB-YH-6Sa" secondAttribute="leadingMargin" id="SBb-Zj-ufm"/>
+                                    <constraint firstItem="N2U-mt-vom" firstAttribute="trailing" secondItem="OLp-1N-Vea" secondAttribute="trailing" id="WmD-a8-e9B"/>
+                                    <constraint firstItem="OS5-0o-VVr" firstAttribute="leading" secondItem="7df-kl-m4P" secondAttribute="trailing" constant="16" id="XgV-uE-upF"/>
+                                    <constraint firstItem="7df-kl-m4P" firstAttribute="top" secondItem="OS5-0o-VVr" secondAttribute="top" id="YdL-CI-fDd"/>
+                                    <constraint firstItem="2SU-b3-cKY" firstAttribute="baseline" secondItem="OS5-0o-VVr" secondAttribute="firstBaseline" id="YkZ-Ql-doL"/>
+                                    <constraint firstItem="7df-kl-m4P" firstAttribute="baseline" secondItem="OS5-0o-VVr" secondAttribute="baseline" id="bY6-0T-kuY"/>
+                                    <constraint firstItem="N2U-mt-vom" firstAttribute="leading" secondItem="aTD-mq-GzF" secondAttribute="leading" id="bhQ-Pi-RWQ"/>
+                                    <constraint firstItem="aTD-mq-GzF" firstAttribute="top" secondItem="jay-b0-CEu" secondAttribute="bottom" constant="8" symbolic="YES" id="cl8-Nb-f4p"/>
+                                    <constraint firstItem="OS5-0o-VVr" firstAttribute="top" secondItem="ZoB-YH-6Sa" secondAttribute="top" id="kI3-he-LTB"/>
+                                    <constraint firstItem="jay-b0-CEu" firstAttribute="top" secondItem="OS5-0o-VVr" secondAttribute="bottom" constant="8" symbolic="YES" id="lcQ-3I-KHT"/>
+                                    <constraint firstItem="7df-kl-m4P" firstAttribute="firstBaseline" secondItem="OS5-0o-VVr" secondAttribute="baseline" id="oXr-Ro-htj"/>
+                                    <constraint firstItem="N2U-mt-vom" firstAttribute="leading" secondItem="OLp-1N-Vea" secondAttribute="leading" id="sDc-O5-Cyh"/>
+                                    <constraint firstItem="2SU-b3-cKY" firstAttribute="firstBaseline" secondItem="OS5-0o-VVr" secondAttribute="baseline" id="sQJ-4j-0OJ"/>
+                                    <constraint firstItem="LWc-yZ-fQP" firstAttribute="centerX" secondItem="ZoB-YH-6Sa" secondAttribute="centerX" id="vBy-C7-tX9"/>
+                                    <constraint firstItem="FlX-DN-VTS" firstAttribute="top" secondItem="ZoB-YH-6Sa" secondAttribute="top" constant="198" id="wbw-iL-Qzl"/>
+                                    <constraint firstItem="OLp-1N-Vea" firstAttribute="top" secondItem="LWc-yZ-fQP" secondAttribute="bottom" constant="17" id="z23-Kr-cPY"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.082858907910000001" blue="0.28487266900000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="ZoB-YH-6Sa" firstAttribute="leading" secondItem="ktX-kS-Pd7" secondAttribute="leading" id="AZD-40-yP3"/>
+                            <constraint firstAttribute="bottom" secondItem="ZoB-YH-6Sa" secondAttribute="bottom" id="BNl-NX-EVC"/>
+                            <constraint firstAttribute="trailing" secondItem="ZoB-YH-6Sa" secondAttribute="trailing" id="Uqz-ck-Dkb"/>
+                            <constraint firstItem="ZoB-YH-6Sa" firstAttribute="top" secondItem="ktX-kS-Pd7" secondAttribute="top" id="wby-NC-Ufm"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ven-z4-nuB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1708" y="135.38230884557723"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="AddToFolder3.png" width="50" height="50"/>
+        <image name="HomePageicon7.png" width="50" height="50"/>
+        <image name="hamburgermenu5.png" width="225" height="225"/>
+        <image name="home_button50.png" width="50" height="50"/>
+        <image name="image_profile2.png" width="50" height="50"/>
+        <image name="searchIcon.png" width="50" height="50"/>
+    </resources>
 </document>

@@ -94,11 +94,8 @@
 		DC6F023E1F81ECBF00869B76 /* Catching-Transfers.mov in Resources */ = {isa = PBXBuildFile; fileRef = DC6F023A1F81ECBF00869B76 /* Catching-Transfers.mov */; };
 		DC6F02431F8203A700869B76 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6F02411F8203A700869B76 /* AVFoundation.framework */; };
 		DC6F02441F8203A700869B76 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6F02421F8203A700869B76 /* AVKit.framework */; };
-		DC6F02451F8203B000869B76 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6F02411F8203A700869B76 /* AVFoundation.framework */; };
-		DC6F02461F8203B000869B76 /* AVFoundation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DC6F02411F8203A700869B76 /* AVFoundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		DC6F02471F8203B000869B76 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6F02421F8203A700869B76 /* AVKit.framework */; };
-		DC6F02481F8203B000869B76 /* AVKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DC6F02421F8203A700869B76 /* AVKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DCCE35ED1F95B0B100C4CC30 /* ContentViewHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCE35EC1F95B0B100C4CC30 /* ContentViewHolder.swift */; };
+		DCEE9A3A1FB8F55E00B86208 /* HomePageContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEE9A391FB8F55D00B86208 /* HomePageContainerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,21 +114,6 @@
 			remoteInfo = DrillBase;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		DC6F02491F8203B100869B76 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				DC6F02481F8203B000869B76 /* AVKit.framework in Embed Frameworks */,
-				DC6F02461F8203B000869B76 /* AVFoundation.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		DC0E0DFA1F664C3D0013617E /* DrillsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrillsModel.swift; sourceTree = "<group>"; };
@@ -210,6 +192,7 @@
 		DC6F02411F8203A700869B76 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		DC6F02421F8203A700869B76 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		DCCE35EC1F95B0B100C4CC30 /* ContentViewHolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewHolder.swift; sourceTree = "<group>"; };
+		DCEE9A391FB8F55D00B86208 /* HomePageContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageContainerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,8 +202,6 @@
 			files = (
 				DC6F02431F8203A700869B76 /* AVFoundation.framework in Frameworks */,
 				DC6F02441F8203A700869B76 /* AVKit.framework in Frameworks */,
-				DC6F02471F8203B000869B76 /* AVKit.framework in Frameworks */,
-				DC6F02451F8203B000869B76 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,6 +435,7 @@
 				DC6F02291F81B14A00869B76 /* HomePage.swift */,
 				DC6F022A1F81B14A00869B76 /* HomePage.xib */,
 				DCCE35EC1F95B0B100C4CC30 /* ContentViewHolder.swift */,
+				DCEE9A391FB8F55D00B86208 /* HomePageContainerViewController.swift */,
 			);
 			path = HomePage;
 			sourceTree = "<group>";
@@ -496,7 +478,6 @@
 				DC59A5D21F538E67007CF44A /* Sources */,
 				DC59A5D31F538E67007CF44A /* Frameworks */,
 				DC59A5D41F538E67007CF44A /* Resources */,
-				DC6F02491F8203B100869B76 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -555,7 +536,8 @@
 				TargetAttributes = {
 					DC59A5D51F538E67007CF44A = {
 						CreatedOnToolsVersion = 8.2;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = BAJHDZ4R8D;
+						ProvisioningStyle = Manual;
 					};
 					DC59A5E91F538E68007CF44A = {
 						CreatedOnToolsVersion = 8.2;
@@ -685,6 +667,7 @@
 				DC6CD4E61F6607D8001B77CE /* SportsModel.swift in Sources */,
 				DC6CD4DD1F65FF3E001B77CE /* SDCTableViewCell.swift in Sources */,
 				DCCE35ED1F95B0B100C4CC30 /* ContentViewHolder.swift in Sources */,
+				DCEE9A3A1FB8F55E00B86208 /* HomePageContainerViewController.swift in Sources */,
 				DC59A5DA1F538E67007CF44A /* AppDelegate.swift in Sources */,
 				DC0E0DFF1F664C4C0013617E /* CategoryModel.swift in Sources */,
 				DC0E0DFB1F664C3D0013617E /* DrillsModel.swift in Sources */,
@@ -853,10 +836,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = BAJHDZ4R8D;
 				INFOPLIST_FILE = DrillBase/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Com.DrillBase..DrillBase;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DrillBase.DrillBaseApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "71c36654-85c3-46c5-bbb5-b340a206b54f";
+				PROVISIONING_PROFILE_SPECIFIER = DrillBaseApp1Adhoc;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -865,10 +853,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = BAJHDZ4R8D;
 				INFOPLIST_FILE = DrillBase/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Com.DrillBase..DrillBase;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DrillBase.DrillBaseApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "71c36654-85c3-46c5-bbb5-b340a206b54f";
+				PROVISIONING_PROFILE_SPECIFIER = DrillBaseApp1Adhoc;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
