@@ -9,10 +9,23 @@
 import UIKit
 
 class HomePageViewController: UIViewController {
-
+var delegate: HomePageContainerViewController?
+    
+    @IBAction func newDrillsButtonClicked(_ sender: Any) {
+        delegate?.overLayView()
+    }
+    
+    @IBAction func timelineButtonClicked(_ sender: Any) {
+  
+        delegate?.overLayViewTL(str:"this is view TimeLine ")
+    }
+    @IBAction func featuredButtonClicked(_ sender: Any) {
+     
+        delegate?.overLayViewND(str:"this is view FeaturedView ")
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-
+    
         // Do any additional setup after loading the view.
     }
 

@@ -8,11 +8,43 @@
 
 import UIKit
 
-class HomePageContainerViewController: UIViewController {
+protocol ViewOverlayProtocol{
     
+    func overLayView( )->Void
+    func overLayViewC(str: String  )->Void
+    func overLayViewTL(str:String)->Void
+    func overLayViewND(str:String)->Void
+    
+}
 
+class HomePageContainerViewController: UIViewController, ViewOverlayProtocol {
+   
+    func overLayViewTL(str: String) {
+        hideContentController(content: homePageViewController)
+        displayContentController(content: timeLineViewController)
+    }
+    
+    func overLayViewND(str: String) {
+        hideContentController(content: homePageViewController)
+        displayContentController(content: newDrillsViewController)
+    }
+    
+    func overLayView() {
+        //
+        print("overlay view called")
+        hideContentController(content: homePageViewController)
+        displayContentController(content: featuredViewController)
+    }
+    
+    func overLayViewC(str: String  ) {
+        print("overlay view called \(str)")
+    }
+    
     @IBOutlet weak var contentView: UIView!
     var  homePageViewController: HomePageViewController = HomePageViewController()
+    var  featuredViewController: FeaturedView = FeaturedView()
+    var  newDrillsViewController: NewDrillsVC = NewDrillsVC()
+    var  timeLineViewController: TimeLineVC = TimeLineVC()
     
     @IBAction func homeButtonClicked(_ sender: Any) {
         hideContentController(content: homePageViewController)
@@ -25,6 +57,11 @@ class HomePageContainerViewController: UIViewController {
 // Do any additional setup after loading the view. 
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         self.homePageViewController = storyboard.instantiateViewController(withIdentifier: "HomePageViewController") as! HomePageViewController
+        self.homePageViewController.delegate = self
+        featuredViewController = FeaturedView.init(nibName: "FeaturedView", bundle: nil)
+        
+        newDrillsViewController = NewDrillsVC.init(nibName: "NewDrillsVC", bundle: nil)
+        timeLineViewController = TimeLineVC.init(nibName: "TimeLineVC", bundle: nil)
     }
 
     override func didReceiveMemoryWarning() {
@@ -45,6 +82,7 @@ class HomePageContainerViewController: UIViewController {
     }
     
     func displayContentController(  content:UIViewController ) {
+        
         self.addChildViewController(content)
         content.view.frame  = self.contentView.frame
         self.view.addSubview(content.view)

@@ -428,7 +428,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6S8-GC-3uy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1708" y="801"/>
+            <point key="canvasLocation" x="2452" y="125"/>
         </scene>
         <!--Base Tab Bar Controller-->
         <scene sceneID="zLb-Me-med">
@@ -452,6 +452,10 @@
         <scene sceneID="gw7-ZS-msP">
             <objects>
                 <viewController storyboardIdentifier="HomePageViewController" id="2qg-Il-1FR" customClass="HomePageViewController" customModule="DrillBase" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rKO-wF-mI6"/>
+                        <viewControllerLayoutGuide type="bottom" id="5fZ-GB-zWB"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ktX-kS-Pd7">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -524,12 +528,18 @@
                                         <state key="normal" title="Featured">
                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                         </state>
+                                        <connections>
+                                            <action selector="featuredButtonClicked:" destination="2qg-Il-1FR" eventType="touchUpInside" id="co3-q6-SNW"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N2U-mt-vom" customClass="UIButtonCustom" customModule="DrillBase" customModuleProvider="target">
                                         <rect key="frame" x="105" y="326" width="165" height="30"/>
                                         <state key="normal" title="New Drills">
                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                         </state>
+                                        <connections>
+                                            <action selector="newDrillsButtonClicked:" destination="2qg-Il-1FR" eventType="touchUpInside" id="yaW-Rk-eux"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OLp-1N-Vea" customClass="UIButtonCustom" customModule="DrillBase" customModuleProvider="target">
                                         <rect key="frame" x="105" y="507" width="165" height="25"/>
@@ -540,6 +550,9 @@
                                         <state key="normal" title="TimeLine">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="timelineButtonClicked:" destination="2qg-Il-1FR" eventType="touchUpInside" id="ZNe-yA-ilt"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7df-kl-m4P" customClass="UIButtonCustom" customModule="DrillBase" customModuleProvider="target">
                                         <rect key="frame" x="8" y="0.0" width="109" height="29"/>
