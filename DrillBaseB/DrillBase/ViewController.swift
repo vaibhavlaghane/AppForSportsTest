@@ -10,7 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var signInLabel: UILabel!
+    
+    @IBOutlet weak var loginLabel: UIButton!
     @IBOutlet weak var registerWithFacebookLabel: UILabel!
     @IBOutlet weak var registerWithEmailLabel: UILabel!
     
@@ -31,11 +32,11 @@ class ViewController: UIViewController {
         registerWithFacebookLabel.layer.masksToBounds = true
         
         registerWithFacebookLabel.layer.cornerRadius = 8
-        let layerS = signInLabel.layer
+        let layerS = loginLabel.layer
         layerS.cornerRadius = 8
         
-        signInLabel.layer.masksToBounds = true 
-        signInLabel.layer.cornerRadius = 8
+        loginLabel.layer.masksToBounds = true
+        loginLabel.layer.cornerRadius = 8
         
     }
     

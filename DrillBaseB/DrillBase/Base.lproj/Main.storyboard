@@ -125,6 +125,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="loginLabel" destination="pdv-nE-UU3" id="WIb-e5-wBz"/>
                         <outlet property="registerWithEmailLabel" destination="sms-vd-7ej" id="t4i-UI-48z"/>
                         <outlet property="registerWithFacebookLabel" destination="O4X-7l-CxI" id="fbj-VX-znF"/>
                     </connections>
