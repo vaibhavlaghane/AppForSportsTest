@@ -312,6 +312,9 @@
                                 <rect key="frame" x="113" y="291" width="128" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Continue"/>
+                                <connections>
+                                    <segue destination="xDX-Uj-qY1" kind="show" id="9Pl-lt-uT6"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="-----------------------or------------------------" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Zdj-g4-YPS">
                                 <rect key="frame" x="26" y="329" width="333" height="30"/>
@@ -773,6 +776,7 @@
         <image name="searchIcon.png" width="50" height="50"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="9Pl-lt-uT6"/>
         <segue reference="RhJ-M2-Mtg"/>
     </inferredMetricsTieBreakers>
 </document>
