@@ -763,7 +763,7 @@
                                             <constraint firstAttribute="height" constant="40" id="2nX-hq-d79"/>
                                             <constraint firstAttribute="width" constant="60" id="aH8-Ix-a30"/>
                                         </constraints>
-                                        <state key="normal" image="hamburgermenu5.png"/>
+                                        <state key="normal" image="hamburgermenu.png"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0tC-AX-Oa6">
                                         <rect key="frame" x="60" y="0.0" width="250" height="40"/>
@@ -779,52 +779,35 @@
                                         <constraints>
                                             <constraint firstAttribute="width" constant="60" id="a4g-dI-R9N"/>
                                         </constraints>
-                                        <state key="normal" image="image_profile2.png"/>
+                                        <state key="normal" image="Profile_001.png"/>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Yi-m2-pYJ">
-                                <rect key="frame" x="19" y="608" width="340" height="59"/>
+                                <rect key="frame" x="19" y="619" width="340" height="48"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FkD-nG-Wg6">
-                                        <rect key="frame" x="0.0" y="0.0" width="80" height="59"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="99" height="48"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="mdR-DJ-NTE"/>
                                         </constraints>
-                                        <state key="normal" image="HomePageicon7.png"/>
+                                        <state key="normal" image="Home_002.png"/>
                                         <connections>
                                             <action selector="homeButtonClicked:" destination="Nnp-e8-vcR" eventType="touchUpInside" id="7pr-sW-Ixt"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mBi-Wn-7yn">
-                                        <rect key="frame" x="80" y="0.0" width="70" height="59"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="70" id="2iP-dg-JNp"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="39"/>
-                                        <state key="normal" title="I">
-                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        </state>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Pc-fj-Hsy">
-                                        <rect key="frame" x="150" y="0.0" width="50" height="59"/>
-                                        <state key="normal" image="home_button50.png"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q3R-vg-6BJ">
-                                        <rect key="frame" x="200" y="0.0" width="70" height="59"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="70" id="9au-Mh-06o"/>
-                                        </constraints>
-                                        <state key="normal" image="searchIcon.png"/>
+                                        <rect key="frame" x="99" y="0.0" width="171" height="48"/>
+                                        <state key="normal" image="AddNew_001.png"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yyG-yw-QvA">
-                                        <rect key="frame" x="270" y="0.0" width="70" height="59"/>
+                                        <rect key="frame" x="270" y="0.0" width="70" height="48"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="70" id="h7C-HV-pSl"/>
                                         </constraints>
-                                        <state key="normal" image="AddToFolder3.png"/>
+                                        <state key="normal" image="Search_001.png"/>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -854,8 +837,13 @@
         </scene>
     </scenes>
     <resources>
+        <image name="AddNew_001.png" width="72" height="48"/>
         <image name="AddToFolder3.png" width="50" height="50"/>
         <image name="HomePageicon7.png" width="50" height="50"/>
+        <image name="Home_002.png" width="99" height="47"/>
+        <image name="Profile_001.png" width="41" height="38"/>
+        <image name="Search_001.png" width="67" height="44"/>
+        <image name="hamburgermenu.png" width="225" height="225"/>
         <image name="hamburgermenu5.png" width="225" height="225"/>
         <image name="home_button50.png" width="50" height="50"/>
         <image name="image_profile2.png" width="50" height="50"/>
