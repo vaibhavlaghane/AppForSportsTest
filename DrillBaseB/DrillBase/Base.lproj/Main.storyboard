@@ -96,6 +96,10 @@
                                     </label>
                                 </subviews>
                             </stackView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DownArr_004.png" highlightedImage="DownArr_004.png" translatesAutoresizingMaskIntoConstraints="NO" id="QLD-cT-YfH">
+                                <rect key="frame" x="164" y="109" width="45" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -109,7 +113,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QYT-QV-YxD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1095" y="165"/>
+            <point key="canvasLocation" x="-1095.2" y="164.77832512315271"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="NO9-ue-qNu">
@@ -254,6 +258,22 @@
                                 <color key="textColor" red="0.1203016061" green="0.3381557926" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Email_001.png" highlightedImage="Email_001.png" translatesAutoresizingMaskIntoConstraints="NO" id="BBv-9l-gr8">
+                                <rect key="frame" x="37" y="201" width="39" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Secure_Lock_001.png" highlightedImage="Email_001.png" translatesAutoresizingMaskIntoConstraints="NO" id="DVY-ob-NFN">
+                                <rect key="frame" x="37" y="248" width="39" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Secure_Lock_001.png" translatesAutoresizingMaskIntoConstraints="NO" id="cy4-Eu-Yoa">
+                                <rect key="frame" x="37" y="295" width="39" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DownArr_004.png" highlightedImage="DownArr_004.png" translatesAutoresizingMaskIntoConstraints="NO" id="fTL-vH-WBo">
+                                <rect key="frame" x="157" y="85" width="45" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -421,6 +441,10 @@
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                     </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DownArr_004.png" highlightedImage="DownArr_004.png" translatesAutoresizingMaskIntoConstraints="NO" id="Mb9-IJ-whl">
+                                        <rect key="frame" x="168" y="88" width="39" height="23"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -774,6 +798,10 @@
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WgQ-yZ-OuI">
                                 <rect key="frame" x="0.0" y="84" width="375" height="639"/>
                             </containerView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SeparatorLine_0004.png" highlightedImage="SeparatorLine_0004.png" translatesAutoresizingMaskIntoConstraints="NO" id="0JM-xf-gX0">
+                                <rect key="frame" x="0.0" y="84" width="375" height="7"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <stackView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="QNs-dp-Dqu">
                                 <rect key="frame" x="0.0" y="44" width="372" height="40"/>
                                 <subviews>
@@ -866,6 +894,10 @@
                                     <constraint firstItem="t3n-h2-cr0" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="aMI-Kd-csF" secondAttribute="leading" constant="20" symbolic="YES" id="uwY-Xe-XUj"/>
                                 </constraints>
                             </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SeparatorLine_0004.png" highlightedImage="SeparatorLine_0004.png" translatesAutoresizingMaskIntoConstraints="NO" id="vDC-Py-pJ0">
+                                <rect key="frame" x="-1" y="719" width="375" height="4"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -896,10 +928,14 @@
     <resources>
         <image name="AddNew_001.png" width="72" height="48"/>
         <image name="AddToFolder3.png" width="50" height="50"/>
+        <image name="DownArr_004.png" width="60" height="33"/>
+        <image name="Email_001.png" width="67" height="53"/>
         <image name="HomePageicon7.png" width="50" height="50"/>
         <image name="Home_002.png" width="99" height="47"/>
         <image name="Profile_001.png" width="41" height="38"/>
         <image name="Search_001.png" width="67" height="44"/>
+        <image name="Secure_Lock_001.png" width="51" height="47"/>
+        <image name="SeparatorLine_0004.png" width="752" height="18"/>
         <image name="hamburgermenu.png" width="225" height="225"/>
         <image name="hamburgermenu5.png" width="225" height="225"/>
         <image name="home_button50.png" width="50" height="50"/>
@@ -907,6 +943,6 @@
         <image name="searchIcon.png" width="50" height="50"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="dOd-z4-80W"/>
+        <segue reference="FWM-cc-hqr"/>
     </inferredMetricsTieBreakers>
 </document>

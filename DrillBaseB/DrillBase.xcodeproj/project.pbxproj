@@ -101,6 +101,15 @@
 		DCB996A320E76C7C00EED75A /* AddNew_001.png in Resources */ = {isa = PBXBuildFile; fileRef = DCB9969C20E76C7B00EED75A /* AddNew_001.png */; };
 		DCB996A420E76C7C00EED75A /* Home_002.png in Resources */ = {isa = PBXBuildFile; fileRef = DCB9969D20E76C7C00EED75A /* Home_002.png */; };
 		DCCE35ED1F95B0B100C4CC30 /* ContentViewHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCE35EC1F95B0B100C4CC30 /* ContentViewHolder.swift */; };
+		DCD227B420E7BB9A00275C67 /* DownArr_004.png in Resources */ = {isa = PBXBuildFile; fileRef = DCD227AB20E7BB9600275C67 /* DownArr_004.png */; };
+		DCD227B520E7BB9A00275C67 /* DownArrow__002.png in Resources */ = {isa = PBXBuildFile; fileRef = DCD227AC20E7BB9600275C67 /* DownArrow__002.png */; };
+		DCD227B620E7BB9A00275C67 /* Email_001.png in Resources */ = {isa = PBXBuildFile; fileRef = DCD227AD20E7BB9700275C67 /* Email_001.png */; };
+		DCD227B720E7BB9A00275C67 /* Secure_Lock_001.png in Resources */ = {isa = PBXBuildFile; fileRef = DCD227AE20E7BB9700275C67 /* Secure_Lock_001.png */; };
+		DCD227B820E7BB9A00275C67 /* DownArrow_001.png in Resources */ = {isa = PBXBuildFile; fileRef = DCD227AF20E7BB9900275C67 /* DownArrow_001.png */; };
+		DCD227B920E7BB9A00275C67 /* SeparatorLine_0004.png in Resources */ = {isa = PBXBuildFile; fileRef = DCD227B020E7BB9A00275C67 /* SeparatorLine_0004.png */; };
+		DCD227BA20E7BB9A00275C67 /* Separator_Line_001.png in Resources */ = {isa = PBXBuildFile; fileRef = DCD227B120E7BB9A00275C67 /* Separator_Line_001.png */; };
+		DCD227BB20E7BB9A00275C67 /* Hamburger__0003.png in Resources */ = {isa = PBXBuildFile; fileRef = DCD227B220E7BB9A00275C67 /* Hamburger__0003.png */; };
+		DCD227BC20E7BB9A00275C67 /* Secure_lock_002.png in Resources */ = {isa = PBXBuildFile; fileRef = DCD227B320E7BB9A00275C67 /* Secure_lock_002.png */; };
 		DCEE9A3A1FB8F55E00B86208 /* HomePageContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEE9A391FB8F55D00B86208 /* HomePageContainerViewController.swift */; };
 		DCEE9A3C1FB9093600B86208 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEE9A3B1FB9093500B86208 /* HomePageViewController.swift */; };
 		DF24D9FA9C9FD117AB15B0F8 /* Pods_DrillBaseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBDCA64D0C062CC176465FE1 /* Pods_DrillBaseTests.framework */; };
@@ -210,6 +219,15 @@
 		DCB9969C20E76C7B00EED75A /* AddNew_001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AddNew_001.png; sourceTree = "<group>"; };
 		DCB9969D20E76C7C00EED75A /* Home_002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home_002.png; sourceTree = "<group>"; };
 		DCCE35EC1F95B0B100C4CC30 /* ContentViewHolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewHolder.swift; sourceTree = "<group>"; };
+		DCD227AB20E7BB9600275C67 /* DownArr_004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DownArr_004.png; sourceTree = "<group>"; };
+		DCD227AC20E7BB9600275C67 /* DownArrow__002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DownArrow__002.png; sourceTree = "<group>"; };
+		DCD227AD20E7BB9700275C67 /* Email_001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Email_001.png; sourceTree = "<group>"; };
+		DCD227AE20E7BB9700275C67 /* Secure_Lock_001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Secure_Lock_001.png; sourceTree = "<group>"; };
+		DCD227AF20E7BB9900275C67 /* DownArrow_001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DownArrow_001.png; sourceTree = "<group>"; };
+		DCD227B020E7BB9A00275C67 /* SeparatorLine_0004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SeparatorLine_0004.png; sourceTree = "<group>"; };
+		DCD227B120E7BB9A00275C67 /* Separator_Line_001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Separator_Line_001.png; sourceTree = "<group>"; };
+		DCD227B220E7BB9A00275C67 /* Hamburger__0003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hamburger__0003.png; sourceTree = "<group>"; };
+		DCD227B320E7BB9A00275C67 /* Secure_lock_002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Secure_lock_002.png; sourceTree = "<group>"; };
 		DCEE9A391FB8F55D00B86208 /* HomePageContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageContainerViewController.swift; sourceTree = "<group>"; };
 		DCEE9A3B1FB9093500B86208 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		E2BD63FC44DF4494284C2660 /* Pods-DrillBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrillBase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DrillBase/Pods-DrillBase.debug.xcconfig"; sourceTree = "<group>"; };
@@ -498,6 +516,7 @@
 		DC6F02371F81ECBF00869B76 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				DCD227AA20E7BB7700275C67 /* icons */,
 				DC4848731F9BD3E700E6BCE5 /* images */,
 			);
 			path = Resources;
@@ -513,6 +532,22 @@
 				FD59600C2739C140E95EAF4A /* Pods_DrillBaseUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCD227AA20E7BB7700275C67 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				DCD227AD20E7BB9700275C67 /* Email_001.png */,
+				DCD227AE20E7BB9700275C67 /* Secure_Lock_001.png */,
+				DCD227B320E7BB9A00275C67 /* Secure_lock_002.png */,
+				DCD227AF20E7BB9900275C67 /* DownArrow_001.png */,
+				DCD227AC20E7BB9600275C67 /* DownArrow__002.png */,
+				DCD227B220E7BB9A00275C67 /* Hamburger__0003.png */,
+				DCD227B120E7BB9A00275C67 /* Separator_Line_001.png */,
+				DCD227AB20E7BB9600275C67 /* DownArr_004.png */,
+				DCD227B020E7BB9A00275C67 /* SeparatorLine_0004.png */,
+			);
+			path = icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -638,16 +673,21 @@
 				DC4848B01F9BD3FF00E6BCE5 /* HomePageicon5.jpeg in Resources */,
 				DC4848BA1F9BD3FF00E6BCE5 /* searchIcon2.png in Resources */,
 				DC4848A81F9BD3FF00E6BCE5 /* hamburgermenu5.png in Resources */,
+				DCD227B620E7BB9A00275C67 /* Email_001.png in Resources */,
+				DCD227B820E7BB9A00275C67 /* DownArrow_001.png in Resources */,
 				DC6F02271F81AF4E00869B76 /* TimeLineVC.xib in Resources */,
 				DC4848A91F9BD3FF00E6BCE5 /* hamburgermenu6.png in Resources */,
 				DCB996A020E76C7C00EED75A /* Search_002.png in Resources */,
 				DC4848BE1F9BD3FF00E6BCE5 /* searchIcon6.jpeg in Resources */,
+				DCD227B520E7BB9A00275C67 /* DownArrow__002.png in Resources */,
 				DC59A5E41F538E67007CF44A /* LaunchScreen.storyboard in Resources */,
 				DC4848B21F9BD3FF00E6BCE5 /* HomePageicon7.png in Resources */,
 				DC696AEC1FA181FC00F6BAEB /* NewDrillsVC.xib in Resources */,
+				DCD227B720E7BB9A00275C67 /* Secure_Lock_001.png in Resources */,
 				DC4848A11F9BD3FF00E6BCE5 /* AddToFolder5.jpeg in Resources */,
 				DC4848BD1F9BD3FF00E6BCE5 /* searchIcon5.jpeg in Resources */,
 				DC4848C01F9BD3FF00E6BCE5 /* searchIcon8.png in Resources */,
+				DCD227B920E7BB9A00275C67 /* SeparatorLine_0004.png in Resources */,
 				DC4848AB1F9BD3FF00E6BCE5 /* hamburgermenu8.jpeg in Resources */,
 				DC4848AE1F9BD3FF00E6BCE5 /* HomePageicon3.jpeg in Resources */,
 				DC6CD4E01F65FF3E001B77CE /* SDCTableViewCell.xib in Resources */,
@@ -663,6 +703,7 @@
 				DC4848B91F9BD3FF00E6BCE5 /* searchIcon.png in Resources */,
 				DCB996A320E76C7C00EED75A /* AddNew_001.png in Resources */,
 				DC4848B51F9BD3FF00E6BCE5 /* image_profile3.jpeg in Resources */,
+				DCD227B420E7BB9A00275C67 /* DownArr_004.png in Resources */,
 				DCB996A120E76C7C00EED75A /* Search_001.png in Resources */,
 				DC4848A61F9BD3FF00E6BCE5 /* hamburgermenu3.png in Resources */,
 				DC4848BF1F9BD3FF00E6BCE5 /* searchIcon7.png in Resources */,
@@ -681,9 +722,12 @@
 				DC4848A01F9BD3FF00E6BCE5 /* AddToFolder4.png in Resources */,
 				DC4848B61F9BD3FF00E6BCE5 /* image_profile4.png in Resources */,
 				DC59A5DF1F538E67007CF44A /* Main.storyboard in Resources */,
+				DCD227BB20E7BB9A00275C67 /* Hamburger__0003.png in Resources */,
 				DCB996A420E76C7C00EED75A /* Home_002.png in Resources */,
 				DC48489F1F9BD3FF00E6BCE5 /* AddToFolder3.png in Resources */,
+				DCD227BA20E7BB9A00275C67 /* Separator_Line_001.png in Resources */,
 				DC4848AD1F9BD3FF00E6BCE5 /* HomePageicon2.jpeg in Resources */,
+				DCD227BC20E7BB9A00275C67 /* Secure_lock_002.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
